@@ -8,8 +8,9 @@
     "start": "node scripts/start-wp.mjs",
     "export": "node scripts/export-static.mjs",
     "build:offline": "node scripts/build-offline.mjs",
-    "build": "node scripts/export-static.mjs && node scripts/validate-dist.mjs && node scripts/validate-brands.mjs && node scripts/build-offline.mjs",
+    "build": "node scripts/export-static.mjs && node scripts/validate-dist.mjs && node scripts/validate-brands.mjs && node scripts/audit-seo.mjs && node scripts/build-offline.mjs",
     "preview": "node scripts/preview-static.mjs",
+    "audit": "node scripts/audit-seo.mjs",
     "check": "node scripts/validate-dist.mjs && node scripts/validate-brands.mjs",
     "validate": "node scripts/validate-dist.mjs --strict && node scripts/validate-brands.mjs",
     "indexnow": "node scripts/indexnow.mjs"

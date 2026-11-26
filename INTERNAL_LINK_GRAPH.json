@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-11-26T14:18:58.077Z",
+  "pageCount": 29,
+  "orphanCount": 0,
+  "brokenLinkCount": 6,
+  "orphans": [],
+  "brokenInternalLinks": [
+    {
+      "from": "/clash-verge-rev-setup-guide/",
+      "to": "/category/guides/"
+    },
+    {
+      "from": "/how-to-choose-reliable-airport-2026/",
+      "to": "/category/blog/"
+    },
+    {
+      "from": "/iplc-iepl-vs-transit-explained/",
+      "to": "/category/knowledge/"
+    },
+    {
+      "from": "/remote-work-network-optimization-guide/",
+      "to": "/category/blog/"
+    },
+    {
+      "from": "/shadowrocket-ios-rules-guide/",
+      "to": "/category/guides/"
+    },
+    {
+      "from": "/trojan-vless-hysteria2-comparison/",
+      "to": "/category/knowledge/"
+    }
+  ],
+  "nodes": [
+    {
+      "path": "/",
+      "inbound": 84,
+      "outbound": 28,
+      "clickDepth": 0
+    },
+    {
+      "path": "/about/",
+      "inbound": 57,
+      "outbound": 8,
+      "clickDepth": 1
+    },
+    {
+      "path": "/blog/",
+      "inbound": 57,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/",
+      "inbound": 69,
+      "outbound": 14,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/edgenova/",
+      "inbound": 15,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/guangnianti/",
+      "inbound": 21,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/jilianyun/",
+      "inbound": 19,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/kexinyun/",
+      "inbound": 14,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/kuaili/",
+      "inbound": 19,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/brands/speedworld/",
+      "inbound": 13,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/clash-verge-rev-setup-guide/",
+      "inbound": 4,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/comparisons/",
+      "inbound": 61,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/comparisons/guangnianti-vs-jilianyun/",
+      "inbound": 4,
+      "outbound": 11,
+      "clickDepth": 1
+    },
+    {
+      "path": "/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/",
+      "inbound": 4,
+      "outbound": 13,
+      "clickDepth": 1
+    },
+    {
+      "path": "/guides/",
+      "inbound": 59,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/how-to-choose-reliable-airport-2026/",
+      "inbound": 4,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/iplc-iepl-vs-transit-explained/",
+      "inbound": 4,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/knowledge/",
+      "inbound": 58,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/recommend/",
+      "inbound": 67,
+      "outbound": 20,
+      "clickDepth": 1
+    },
+    {
+      "path": "/remote-work-network-optimization-guide/",
+      "inbound": 4,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/",
+      "inbound": 65,
+      "outbound": 14,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/edgenova-review/",
+      "inbound": 7,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/guangnianti-review/",
+      "inbound": 6,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/jilianyun-review/",
+      "inbound": 5,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/kexinyun-review/",
+      "inbound": 7,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/kuaili-review/",
+      "inbound": 5,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/reviews/speedworld-review/",
+      "inbound": 7,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/shadowrocket-ios-rules-guide/",
+      "inbound": 4,
+      "outbound": 10,
+      "clickDepth": 1
+    },
+    {
+      "path": "/trojan-vless-hysteria2-comparison/",
+      "inbound": 4,
+      "outbound": 10,
+      "clickDepth": 1
+    }
+  ]
+}

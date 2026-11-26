@@ -123,9 +123,11 @@ function airportcha_output_seo_head() {
 		$schemas[] = array(
 			'@context'        => 'https://schema.org',
 			'@type'           => 'WebSite',
+			'@id'             => home_url( '/#website' ),
 			'name'            => get_bloginfo( 'name' ),
 			'url'             => home_url( '/' ),
 			'inLanguage'      => 'zh-CN',
+			'publisher'       => array( '@id' => home_url( '/#organization' ) ),
 			'potentialAction' => array(
 				'@type'       => 'SearchAction',
 				'target'      => home_url( '/?s={search_term_string}' ),
@@ -135,6 +137,7 @@ function airportcha_output_seo_head() {
 		$schemas[] = array(
 			'@context' => 'https://schema.org',
 			'@type'    => 'Organization',
+			'@id'      => home_url( '/#organization' ),
 			'name'     => 'AIRPORTCHA',
 			'url'      => home_url( '/' ),
 		);
@@ -252,15 +255,19 @@ function airportcha_output_seo_head() {
 		$schemas[] = array(
 			'@context'      => 'https://schema.org',
 			'@type'         => 'Article',
+			'@id'           => get_permalink() . '#article',
 			'headline'      => get_the_title(),
 			'datePublished' => get_the_date( 'c' ),
 			'dateModified'  => get_the_modified_date( 'c' ),
+			'isPartOf'      => array( '@id' => home_url( '/#website' ) ),
 			'author'        => array(
 				'@type' => 'Organization',
+				'@id'   => home_url( '/#organization' ),
 				'name'  => 'AIRPORTCHA',
 			),
 			'publisher'     => array(
 				'@type' => 'Organization',
+				'@id'   => home_url( '/#organization' ),
 				'name'  => 'AIRPORTCHA',
 			),
 		);

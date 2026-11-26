@@ -1,5 +1,14 @@
 # 变更日志（CHANGELOG）
 
+## [5.0.0] - 2026-11-26（Phase 05：Bing SEO 高级技术架构、内链图谱、GEO `@id` 与性能优化）
+
+### 新增与优化
+- 在 `functions.php` 禁用 WordPress Emoji 外链，消除静态站外部超时请求。
+- 升级 `includes/seo.php` 的 GEO JSON-LD `@id` 实体关联。
+- 新增 `scripts/audit-seo.mjs`（自动生成 `URL_REGISTRY.json`、`INTERNAL_LINK_GRAPH.json`、`SEO_AUDIT_FINAL.md`）并集成至 `npm run build`。
+- 新增 `KEYWORD_REGISTRY.json`、`BING_WEBMASTER_GUIDE.md`、`INDEXNOW_GUIDE.md`、`PHASE_5_REPORT.md`、`PHASE_6_PLAN.md`。
+- 升级 `scripts/indexnow.mjs` 支持基于内容哈希差异化提交。
+
 ## [4.0.0] - 2026-11-26（Phase 04：真实品牌白名单清理、6 大品牌深度评测与自动验收门禁）
 
 ### 新增与变更

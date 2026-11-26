@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-11-26T14:18:58.076Z",
+  "count": 29,
+  "urls": [
+    {
+      "url": "https://airportcha.com/about/",
+      "path": "/about/",
+      "title": "关于我们 &#8211; AIRPORTCHA",
+      "description": "关于 AIRPORTCHA AIRPORTCHA（airportcha.com）是一家面向全球中文用户的独立网络科技内容与多品牌机场评测平台。我们通过透明的品牌档案、客观的评测方法与实用技术教程，帮助用户理性选择网络服务。 我们的评测与商业披露原则 多品牌独立对比：仅收录经过核验的正式白名单品牌，既分析核心特",
+      "h1": "关于我们",
+      "canonical": "https://airportcha.com/about/",
+      "bytes": 23301
+    },
+    {
+      "url": "https://airportcha.com/blog/",
+      "path": "/blog/",
+      "title": "博客 &#8211; AIRPORTCHA",
+      "description": "聚焦全球网络科技趋势、跨境办公效率工具与行业动态。",
+      "h1": "博客",
+      "canonical": "https://airportcha.com/blog/",
+      "bytes": 23604
+    },
+    {
+      "url": "https://airportcha.com/brands/edgenova/",
+      "path": "/brands/edgenova/",
+      "title": "边缘节点 &#8211; AIRPORTCHA",
+      "description": "边缘节点正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "h1": "边缘节点 (EdgeNova)",
+      "canonical": "https://airportcha.com/brands/edgenova/",
+      "bytes": 27275
+    },
+    {
+      "url": "https://airportcha.com/brands/guangnianti/",
+      "path": "/brands/guangnianti/",
+      "title": "光年梯 &#8211; AIRPORTCHA",
+      "description": "光年梯（GuangNianTi）是 AIRPORTCHA 当前核心主推品牌（PRIMARY），主打跨境办公、AI 工具适配与多平台稳定接入。",
+      "h1": "光年梯 (GuangNianTi)",
+      "canonical": "https://airportcha.com/brands/guangnianti/",
+      "bytes": 30541
+    },
+    {
+      "url": "https://airportcha.com/brands/",
+      "path": "/brands/",
+      "title": "品牌目录 &#8211; AIRPORTCHA",
+      "description": "AIRPORTCHA 机场服务品牌目录：客观收录全球主流高速网络节点与专线机场，提供协议、价格、节点与解锁实测参数。",
+      "h1": "机场服务品牌目录",
+      "canonical": "https://airportcha.com/brands",
+      "bytes": 32081
+    },
+    {
+      "url": "https://airportcha.com/brands/jilianyun/",
+      "path": "/brands/jilianyun/",
+      "title": "极连云 &#8211; AIRPORTCHA",
+      "description": "极连云正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "h1": "极连云 (JiLianYun)",
+      "canonical": "https://airportcha.com/brands/jilianyun/",
+      "bytes": 27266
+    },
+    {
+      "url": "https://airportcha.com/brands/kexinyun/",
+      "path": "/brands/kexinyun/",
+      "title": "可信云 &#8211; AIRPORTCHA",
+      "description": "可信云正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "h1": "可信云 (Kosing / KeXinYun)",
+      "canonical": "https://airportcha.com/brands/kexinyun/",
+      "bytes": 27249
+    },
+    {
+      "url": "https://airportcha.com/brands/kuaili/",
+      "path": "/brands/kuaili/",
+      "title": "快狸 &#8211; AIRPORTCHA",
+      "description": "快狸正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "h1": "快狸 (KuaiLi)",
+      "canonical": "https://airportcha.com/brands/kuaili/",
+      "bytes": 27206
+    },
+    {
+      "url": "https://airportcha.com/brands/speedworld/",
+      "path": "/brands/speedworld/",
+      "title": "速界 &#8211; AIRPORTCHA",
+      "description": "速界正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "h1": "速界 (SpeedWorld)",
+      "canonical": "https://airportcha.com/brands/speedworld/",
+      "bytes": 27240
+    },
+    {
+      "url": "https://airportcha.com/clash-verge-rev-setup-guide/",
+      "path": "/clash-verge-rev-setup-guide/",
+      "title": "Clash Verge Rev 新手完全配置教程（Windows / macOS） &#8211; AIRPORTCHA",
+      "description": "手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。",
+      "h1": "Clash Verge Rev 新手完全配置教程（Windows / macOS）",
+      "canonical": "https://airportcha.com/clash-verge-rev-setup-guide/",
+      "bytes": 24618
+    },
+    {
+      "url": "https://airportcha.com/comparisons/guangnianti-vs-jilianyun/",
+      "path": "/comparisons/guangnianti-vs-jilianyun/",
+      "title": "光年梯 vs 极连云：核心主推与均衡重点合作品牌如何选？ &#8211; AIRPORTCHA",
+      "description": "从产品定位、协议生态、适用人群与主备搭配思路，客观对比光年梯与极连云两大白名单品牌。",
+      "h1": "光年梯 vs 极连云：核心主推与均衡重点合作品牌如何选？",
+      "canonical": "https://airportcha.com/comparisons/guangnianti-vs-jilianyun/",
+      "bytes": 27422
+    },
+    {
+      "url": "https://airportcha.com/comparisons/",
+      "path": "/comparisons/",
+      "title": "品牌比较 &#8211; AIRPORTCHA",
+      "description": "AIRPORTCHA 机场品牌横向对比：多维度对比主流服务商的线路质量、价格与适用场景。",
+      "h1": "品牌横向比较",
+      "canonical": "https://airportcha.com/comparisons",
+      "bytes": 22817
+    },
+    {
+      "url": "https://airportcha.com/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/",
+      "path": "/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/",
+      "title": "快狸、可信云、边缘节点与速界横向对比：按使用场景怎么选？ &#8211; AIRPORTCHA",
+      "description": "横向对比白名单中四款各具特色的合作品牌，帮你按轻度易用、稳定连接、技术开发与高性价比快速匹配。",
+      "h1": "快狸、可信云、边缘节点与速界横向对比：按使用场景怎么选？",
+      "canonical": "https://airportcha.com/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/",
+      "bytes": 28749
+    },
+    {
+      "url": "https://airportcha.com/guides/",
+      "path": "/guides/",
+      "title": "使用教程 &#8211; AIRPORTCHA",
+      "description": "覆盖 Windows、macOS、iOS、Android 与路由器的客户端安装与分流规则实战教程。",
+      "h1": "使用教程",
+      "canonical": "https://airportcha.com/guides/",
+      "bytes": 23641
+    },
+    {
+      "url": "https://airportcha.com/how-to-choose-reliable-airport-2026/",
+      "path": "/how-to-choose-reliable-airport-2026/",
+      "title": "2026 年如何挑选靠谱的机场服务？五大核心指标全解析 &#8211; AIRPORTCHA",
+      "description": "从线路类型、协议生态、晚高峰实测到隐私与付费策略，一文掌握判断机场服务质量的核心方法。",
+      "h1": "2026 年如何挑选靠谱的机场服务？五大核心指标全解析",
+      "canonical": "https://airportcha.com/how-to-choose-reliable-airport-2026/",
+      "bytes": 24810
+    },
+    {
+      "url": "https://airportcha.com/",
+      "path": "/",
+      "title": "AIRPORTCHA &#8211; 独立网络科技资讯、机场服务评测与全球节点指南",
+      "description": "欢迎来到 AIRPORTCHA —— 独立网络科技资讯与多品牌机场评测平台。",
+      "h1": "以透明实测与多品牌对比，做好每一次机场推荐与网络服务选择",
+      "canonical": "https://airportcha.com/",
+      "bytes": 57599
+    },
+    {
+      "url": "https://airportcha.com/iplc-iepl-vs-transit-explained/",
+      "path": "/iplc-iepl-vs-transit-explained/",
+      "title": "IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理 &#8211; AIRPORTCHA",
+      "description": "深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。",
+      "h1": "IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理",
+      "canonical": "https://airportcha.com/iplc-iepl-vs-transit-explained/",
+      "bytes": 24698
+    },
+    {
+      "url": "https://airportcha.com/knowledge/",
+      "path": "/knowledge/",
+      "title": "网络知识 &#8211; AIRPORTCHA",
+      "description": "系统讲解 Trojan、VLESS、Hysteria2、IPLC/IEPL 专线及 DNS 防泄漏等网络基础知识。",
+      "h1": "网络知识",
+      "canonical": "https://airportcha.com/knowledge/",
+      "bytes": 23733
+    },
+    {
+      "url": "https://airportcha.com/recommend/",
+      "path": "/recommend/",
+      "title": "机场推荐与排行榜：稳定性、价格、套餐及品牌对比 | AIRPORTCHA",
+      "description": "AIRPORTCHA 机场推荐与品牌排行榜：基于晚高峰稳定性、价格套餐、协议支持与流媒体/AI 解锁维度客观对比多品牌机场服务，提供按需求选购指南与透明评测方法。",
+      "h1": "机场推荐与品牌排行榜",
+      "canonical": "https://airportcha.com/recommend/",
+      "bytes": 50411
+    },
+    {
+      "url": "https://airportcha.com/remote-work-network-optimization-guide/",
+      "path": "/remote-work-network-optimization-guide/",
+      "title": "跨境远程办公网络优化指南：降低延迟与丢包的实用方案 &#8211; AIRPORTCHA",
+      "description": "面向海外协同办公、GitHub 与 AI 编程工具用户，分享稳定高效的网络分流与多节点容灾思路。",
+      "h1": "跨境远程办公网络优化指南：降低延迟与丢包的实用方案",
+      "canonical": "https://airportcha.com/remote-work-network-optimization-guide/",
+      "bytes": 24714
+    },
+    {
+      "url": "https://airportcha.com/reviews/edgenova-review/",
+      "path": "/reviews/edgenova-review/",
+      "title": "边缘节点（EdgeNova）深度评测（2026）：全球边缘路由定位与开发者选购指南 &#8211; AIRPORTCHA",
+      "description": "深入解析边缘节点（EdgeNova）的品牌定位、跨区域路由特点、多平台客户端兼容与开发者适用场景，提供客观透明的选型参考。",
+      "h1": "边缘节点（EdgeNova）深度评测（2026）：全球边缘路由定位与开发者选购指南",
+      "canonical": "https://airportcha.com/reviews/edgenova-review/",
+      "bytes": 35498
+    },
+    {
+      "url": "https://airportcha.com/reviews/guangnianti-review/",
+      "path": "/reviews/guangnianti-review/",
+      "title": "光年梯深度评测（2026）：核心主推品牌定位、线路架构与选购全指南 &#8211; AIRPORTCHA",
+      "description": "面向跨境办公、AI 生产力工具与多平台用户的光年梯深度分析：从核心定位、协议兼容、套餐选择思路、优缺点到购买前核实清单，提供客观透明的决策参考。",
+      "h1": "光年梯深度评测（2026）：核心主推品牌定位、线路架构与选购全指南",
+      "canonical": "https://airportcha.com/reviews/guangnianti-review/",
+      "bytes": 40369
+    },
+    {
+      "url": "https://airportcha.com/reviews/",
+      "path": "/reviews/",
+      "title": "品牌评测 &#8211; AIRPORTCHA",
+      "description": "AIRPORTCHA 深度品牌评测：独立实测各大机场服务的晚高峰速度、稳定性、流媒体与 AI 解锁表现。",
+      "h1": "品牌深度评测",
+      "canonical": "https://airportcha.com/reviews",
+      "bytes": 26088
+    },
+    {
+      "url": "https://airportcha.com/reviews/jilianyun-review/",
+      "path": "/reviews/jilianyun-review/",
+      "title": "极连云深度评测（2026）：多节点接入体验、协议兼容与选购建议 &#8211; AIRPORTCHA",
+      "description": "全面解析极连云（JiLianYun）的产品定位、客户端适配、适用人群与选购注意事项，帮助用户在多品牌白名单中做出理性比较。",
+      "h1": "极连云深度评测（2026）：多节点接入体验、协议兼容与选购建议",
+      "canonical": "https://airportcha.com/reviews/jilianyun-review/",
+      "bytes": 36863
+    },
+    {
+      "url": "https://airportcha.com/reviews/kexinyun-review/",
+      "path": "/reviews/kexinyun-review/",
+      "title": "可信云深度评测（2026）：稳定连接定位、多地区节点与选购指南 &#8211; AIRPORTCHA",
+      "description": "客观分析可信云（Kosing / KeXinYun）的品牌定位、多地区节点覆盖思路、客户端支持与选购建议，助力理性决策。",
+      "h1": "可信云深度评测（2026）：稳定连接定位、多地区节点与选购指南",
+      "canonical": "https://airportcha.com/reviews/kexinyun-review/",
+      "bytes": 35358
+    },
+    {
+      "url": "https://airportcha.com/reviews/kuaili-review/",
+      "path": "/reviews/kuaili-review/",
+      "title": "快狸深度评测（2026）：轻量易用体验、多平台适配与适用人群解析 &#8211; AIRPORTCHA",
+      "description": "深度梳理快狸（KuaiLi）的产品定位、客户端上手体验、日常使用场景与购买注意事项，助你快速判断快狸是否契合自身需求。",
+      "h1": "快狸深度评测（2026）：轻量易用体验、多平台适配与适用人群解析",
+      "canonical": "https://airportcha.com/reviews/kuaili-review/",
+      "bytes": 35781
+    },
+    {
+      "url": "https://airportcha.com/reviews/speedworld-review/",
+      "path": "/reviews/speedworld-review/",
+      "title": "速界（SpeedWorld）深度评测（2026）：高性价比日常接入与多设备选购指南 &#8211; AIRPORTCHA",
+      "description": "全面解读速界（SpeedWorld）的品牌定位、多设备日常使用体验、性价比评估逻辑与购买注意事项，帮助预算敏感型用户理性选型。",
+      "h1": "速界（SpeedWorld）深度评测（2026）：高性价比日常接入与多设备选购指南",
+      "canonical": "https://airportcha.com/reviews/speedworld-review/",
+      "bytes": 35467
+    },
+    {
+      "url": "https://airportcha.com/shadowrocket-ios-rules-guide/",
+      "path": "/shadowrocket-ios-rules-guide/",
+      "title": "iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程 &#8211; AIRPORTCHA",
+      "description": "详解 Shadowrocket 订阅自动更新、按地区自动选优与流媒体/AI 专属分流配置技巧。",
+      "h1": "iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程",
+      "canonical": "https://airportcha.com/shadowrocket-ios-rules-guide/",
+      "bytes": 24588
+    },
+    {
+      "url": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
+      "path": "/trojan-vless-hysteria2-comparison/",
+      "title": "Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？ &#8211; AIRPORTCHA",
+      "description": "对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。",
+      "h1": "Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？",
+      "canonical": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
+      "bytes": 24694
+    }
+  ]
+}
