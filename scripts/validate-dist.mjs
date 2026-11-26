@@ -44,12 +44,15 @@ const requiredFiles = [
   '_headers',
   '_routes.json',
   '_data/affiliates.json',
-  '_data/search-index.json'
+  '_data/search-index.json',
+  'wp-content/themes/airportcha/style.css',
+  'wp-content/themes/airportcha/assets/js/main.js'
 ];
 
 for (const rf of requiredFiles) {
-  if (!existsSync(join(DIST, rf))) {
-    errors.push(`缺少核心静态产物：dist/${rf}`);
+  const full = join(DIST, rf);
+  if (!existsSync(full) || statSync(full).size === 0) {
+    errors.push(`缺少核心静态产物或文件为空：dist/${rf}`);
   }
 }
 
@@ -101,6 +104,15 @@ for (const file of htmlFiles) {
       JSON.parse(m[1]);
     } catch {
       errors.push(`${rel}: JSON-LD 结构化数据语法非法`);
+    }
+  }
+
+  // 检查页面引用的本地 /wp-content/ CSS、JS、图片文件是否真实存在
+  const assetMatches = html.matchAll(/(?:href|src)=["'](\/wp-content\/[^"'?#]+)(?:[?#][^"']*)?["']/gi);
+  for (const am of assetMatches) {
+    const assetRel = am[1].replace(/^\/+/, '');
+    if (!existsSync(join(DIST, assetRel))) {
+      errors.push(`${rel}: 引用的静态资源不存在 -> ${am[1]}`);
     }
   }
 }

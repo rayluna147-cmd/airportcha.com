@@ -90,7 +90,8 @@ function rewriteHtml(html, wpBase) {
     .replace(/\/\/127\.0\.0\.1(:\d+)?/g, `//${siteHost}`)
     .replace(/\/\/localhost(:\d+)?/g, `//${siteHost}`)
     .replace(/127\.0\.0\.1(:\d+)?/g, siteHost)
-    .replace(new RegExp(`(href|src)=["']${SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(/wp-content/[^"']+)["']`, 'g'), '$1="$2"');
+    .replace(new RegExp(`(href|src)=["']${SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(/wp-content/[^"']+)["']`, 'g'), '$1="$2"')
+    .replace(/<link[^>]+href=["'][^"']*\/wp-includes\/blocks\/[^"']+["'][^>]*>\s*/gi, '');
 }
 
 function writeRouteHtml(routePath, html) {

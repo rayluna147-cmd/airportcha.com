@@ -1,5 +1,13 @@
 # 变更日志（CHANGELOG）
 
+## [3.0.1] - 2026-11-26（Phase 03.5：静态资源完整性校验升级与真实浏览器视觉验收）
+
+### 修复与升级
+- 定位 `dist/index.html` 直接双击无样式为 `file://` 协议下根路径解析所致，通过纯静态 HTTP 预览（`http://127.0.0.1:4173/`）实测确认桌面端 1440px 与移动端 390px 均完整渲染定制 UI。
+- `scripts/export-static.mjs` 自动清理静态站不存在的 `/wp-includes/blocks/*.css` 外链。
+- `scripts/validate-dist.mjs` 升级为强制校验 `style.css`、`main.js` 及所有页面引用的 `/wp-content/` 静态资源真实存在且非空。
+- 新增 `PHASE_3_5_REPORT.md`。
+
 ## [3.0.0] - 2026-11-26（Phase 03：Bing 核心关键词页 `/recommend/`、首页 12 模块与动态品牌排行榜升级）
 
 ### 新增
