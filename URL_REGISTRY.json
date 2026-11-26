@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:56:01.254Z",
+  "generatedAt": "2026-11-26T15:57:06.336Z",
   "count": 32,
   "urls": [
     {
@@ -24,10 +24,10 @@
       "url": "https://airportcha.com/brands/edgenova/",
       "path": "/brands/edgenova/",
       "title": "边缘节点 &#8211; AIRPORTCHA",
-      "description": "边缘节点正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "description": "边缘节点正式品牌档案：¥25 / 月（原价 · 100GB），专属优惠码 xk808，支持全平台主流客户端。",
       "h1": "边缘节点 (EdgeNova)",
       "canonical": "https://airportcha.com/brands/edgenova/",
-      "bytes": 27275
+      "bytes": 28202
     },
     {
       "url": "https://airportcha.com/brands/guangnianti/",
@@ -36,7 +36,7 @@
       "description": "光年梯（GuangNianTi）是 AIRPORTCHA 当前核心主推品牌（PRIMARY），主打跨境办公、AI 工具适配与多平台稳定接入。",
       "h1": "光年梯 (GuangNianTi)",
       "canonical": "https://airportcha.com/brands/guangnianti/",
-      "bytes": 30541
+      "bytes": 30137
     },
     {
       "url": "https://airportcha.com/brands/",
@@ -45,43 +45,43 @@
       "description": "AIRPORTCHA 机场服务品牌目录：客观收录全球主流高速网络节点与专线机场，提供协议、价格、节点与解锁实测参数。",
       "h1": "机场服务品牌目录",
       "canonical": "https://airportcha.com/brands",
-      "bytes": 32081
+      "bytes": 32937
     },
     {
       "url": "https://airportcha.com/brands/jilianyun/",
       "path": "/brands/jilianyun/",
       "title": "极连云 &#8211; AIRPORTCHA",
-      "description": "极连云正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "description": "极连云正式品牌档案：¥18 / 月（原价 · 100GB），专属优惠码 JLY888，支持全平台主流客户端。",
       "h1": "极连云 (JiLianYun)",
       "canonical": "https://airportcha.com/brands/jilianyun/",
-      "bytes": 27266
+      "bytes": 28207
     },
     {
       "url": "https://airportcha.com/brands/kexinyun/",
       "path": "/brands/kexinyun/",
       "title": "可信云 &#8211; AIRPORTCHA",
-      "description": "可信云正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "description": "可信云正式品牌档案：¥15 / 月（原价 · 60GB），专属优惠码 kxy80，支持全平台主流客户端。",
       "h1": "可信云 (Kosing / KeXinYun)",
       "canonical": "https://airportcha.com/brands/kexinyun/",
-      "bytes": 27249
+      "bytes": 28179
     },
     {
       "url": "https://airportcha.com/brands/kuaili/",
       "path": "/brands/kuaili/",
       "title": "快狸 &#8211; AIRPORTCHA",
-      "description": "快狸正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "description": "快狸正式品牌档案：¥15 / 月（原价 · 50GB），专属优惠码 kl888，支持全平台主流客户端。",
       "h1": "快狸 (KuaiLi)",
       "canonical": "https://airportcha.com/brands/kuaili/",
-      "bytes": 27206
+      "bytes": 28124
     },
     {
       "url": "https://airportcha.com/brands/speedworld/",
       "path": "/brands/speedworld/",
       "title": "速界 &#8211; AIRPORTCHA",
-      "description": "速界正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
+      "description": "速界正式品牌档案：¥15 / 月（原价 · 50GB），专属优惠码 sujie888，支持全平台主流客户端。",
       "h1": "速界 (SpeedWorld)",
       "canonical": "https://airportcha.com/brands/speedworld/",
-      "bytes": 27240
+      "bytes": 28166
     },
     {
       "url": "https://airportcha.com/clash-verge-rev-setup-guide/",
@@ -99,7 +99,7 @@
       "description": "从产品定位、协议生态、适用人群与主备搭配思路，客观对比光年梯与极连云两大白名单品牌。",
       "h1": "光年梯 vs 极连云：核心主推与均衡重点合作品牌如何选？",
       "canonical": "https://airportcha.com/comparisons/guangnianti-vs-jilianyun/",
-      "bytes": 27422
+      "bytes": 27401
     },
     {
       "url": "https://airportcha.com/comparisons/",
@@ -117,7 +117,7 @@
       "description": "横向对比白名单中四款各具特色的合作品牌，帮你按轻度易用、稳定连接、技术开发与高性价比快速匹配。",
       "h1": "快狸、可信云、边缘节点与速界横向对比：按使用场景怎么选？",
       "canonical": "https://airportcha.com/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/",
-      "bytes": 28749
+      "bytes": 28764
     },
     {
       "url": "https://airportcha.com/guides/",
@@ -144,7 +144,7 @@
       "description": "欢迎来到 AIRPORTCHA —— 独立网络科技资讯与多品牌机场评测平台。",
       "h1": "以透明实测与多品牌对比，做好每一次机场推荐与网络服务选择",
       "canonical": "https://airportcha.com/",
-      "bytes": 57599
+      "bytes": 57711
     },
     {
       "url": "https://airportcha.com/iplc-iepl-vs-transit-explained/",
@@ -171,7 +171,7 @@
       "description": "一、机场服务主流计费周期解析 目前主流机场服务主要提供月付、季付、年付及按量不限时四类计费周期。AIRPORTCHA 严格区分不同计费周期，绝不将年付折合月均价与单月付价格混排误导用户。实时售价、流量配额与限时优惠请始终以各品牌官方结算页为准。 二、白名单品牌套餐价格矩阵 三、购买套餐前必查的 4 项条款 节",
       "h1": "机场价格与套餐对比中心",
       "canonical": "https://airportcha.com/pricing/",
-      "bytes": 28180
+      "bytes": 27854
     },
     {
       "url": "https://airportcha.com/recommend/",
@@ -180,7 +180,7 @@
       "description": "AIRPORTCHA 机场推荐与品牌排行榜：基于晚高峰稳定性、价格套餐、协议支持与流媒体/AI 解锁维度客观对比多品牌机场服务，提供按需求选购指南与透明评测方法。",
       "h1": "机场推荐与品牌排行榜",
       "canonical": "https://airportcha.com/recommend/",
-      "bytes": 50762
+      "bytes": 50759
     },
     {
       "url": "https://airportcha.com/remote-work-network-optimization-guide/",
@@ -194,20 +194,20 @@
     {
       "url": "https://airportcha.com/reviews/edgenova-review/",
       "path": "/reviews/edgenova-review/",
-      "title": "边缘节点（EdgeNova）深度评测（2026）：全球边缘路由定位与开发者选购指南 &#8211; AIRPORTCHA",
-      "description": "深入解析边缘节点（EdgeNova）的品牌定位、跨区域路由特点、多平台客户端兼容与开发者适用场景，提供客观透明的选型参考。",
-      "h1": "边缘节点（EdgeNova）深度评测（2026）：全球边缘路由定位与开发者选购指南",
+      "title": "边缘节点真实评测（2026 排名第 5）：原价 25 元 100G + 优惠码 xk808，开发者向为什么排第五？ &#8211; AIRPORTCHA",
+      "description": "客观聊边缘节点（EdgeNova）：打折前 25 元/月含 100G 流量，可用优惠码 xk808。讲清楚为什么它排在第五名，以及哪类技术用户最适合买它。",
+      "h1": "边缘节点真实评测（2026 排名第 5）：原价 25 元 100G + 优惠码 xk808，开发者向为什么排第五？",
       "canonical": "https://airportcha.com/reviews/edgenova-review/",
-      "bytes": 39294
+      "bytes": 40352
     },
     {
       "url": "https://airportcha.com/reviews/guangnianti-review/",
       "path": "/reviews/guangnianti-review/",
-      "title": "光年梯深度评测（2026）：核心主推品牌定位、线路架构与选购全指南 &#8211; AIRPORTCHA",
-      "description": "面向跨境办公、AI 生产力工具与多平台用户的光年梯深度分析：从核心定位、协议兼容、套餐选择思路、优缺点到购买前核实清单，提供客观透明的决策参考。",
-      "h1": "光年梯深度评测（2026）：核心主推品牌定位、线路架构与选购全指南",
+      "title": "光年梯真实评测（2026 排名第 1）：原价 18 元给 120G 流量，为什么我们把它排在榜首？ &#8211; AIRPORTCHA",
+      "description": "实话实说聊光年梯：打折前 18 元/月给 120G 流量，结账还能用优惠码 GNT80。把 6 家机场摆在一起算账后，告诉你为什么光年梯稳坐第一名。",
+      "h1": "光年梯真实评测（2026 排名第 1）：原价 18 元给 120G 流量，为什么我们把它排在榜首？",
       "canonical": "https://airportcha.com/reviews/guangnianti-review/",
-      "bytes": 40369
+      "bytes": 41842
     },
     {
       "url": "https://airportcha.com/reviews/",
@@ -216,43 +216,43 @@
       "description": "AIRPORTCHA 深度品牌评测：独立实测各大机场服务的晚高峰速度、稳定性、流媒体与 AI 解锁表现。",
       "h1": "品牌深度评测",
       "canonical": "https://airportcha.com/reviews",
-      "bytes": 26088
+      "bytes": 26258
     },
     {
       "url": "https://airportcha.com/reviews/jilianyun-review/",
       "path": "/reviews/jilianyun-review/",
-      "title": "极连云深度评测（2026）：多节点接入体验、协议兼容与选购建议 &#8211; AIRPORTCHA",
-      "description": "全面解析极连云（JiLianYun）的产品定位、客户端适配、适用人群与选购注意事项，帮助用户在多品牌白名单中做出理性比较。",
-      "h1": "极连云深度评测（2026）：多节点接入体验、协议兼容与选购建议",
+      "title": "极连云真实评测（2026 排名第 2）：原价 18 元 100G 流量 + 优惠码 JLY888，稳健均衡的第二主力 &#8211; AIRPORTCHA",
+      "description": "极连云为什么排第二？打折前 18 元/月给 100G 流量，可用优惠码 JLY888。和榜首光年梯实打实对比，聊聊它适合谁、怎么买最划算。",
+      "h1": "极连云真实评测（2026 排名第 2）：原价 18 元 100G 流量 + 优惠码 JLY888，稳健均衡的第二主力",
       "canonical": "https://airportcha.com/reviews/jilianyun-review/",
-      "bytes": 39119
+      "bytes": 40574
     },
     {
       "url": "https://airportcha.com/reviews/kexinyun-review/",
       "path": "/reviews/kexinyun-review/",
-      "title": "可信云深度评测（2026）：稳定连接定位、多地区节点与选购指南 &#8211; AIRPORTCHA",
-      "description": "客观分析可信云（Kosing / KeXinYun）的品牌定位、多地区节点覆盖思路、客户端支持与选购建议，助力理性决策。",
-      "h1": "可信云深度评测（2026）：稳定连接定位、多地区节点与选购指南",
+      "title": "可信云真实评测（2026 排名第 6）：原价 15 元给 60G + 优惠码 kxy80，被低估的稳健备用之选 &#8211; AIRPORTCHA",
+      "description": "可信云为什么排第六？打折前 15 元/月给 60G 流量（比同价位多 10G），结账还能用优惠码 kxy80。实话聊聊它的定位和为什么适合做备用线。",
+      "h1": "可信云真实评测（2026 排名第 6）：原价 15 元给 60G + 优惠码 kxy80，被低估的稳健备用之选",
       "canonical": "https://airportcha.com/reviews/kexinyun-review/",
-      "bytes": 38855
+      "bytes": 40196
     },
     {
       "url": "https://airportcha.com/reviews/kuaili-review/",
       "path": "/reviews/kuaili-review/",
-      "title": "快狸深度评测（2026）：轻量易用体验、多平台适配与适用人群解析 &#8211; AIRPORTCHA",
-      "description": "深度梳理快狸（KuaiLi）的产品定位、客户端上手体验、日常使用场景与购买注意事项，助你快速判断快狸是否契合自身需求。",
-      "h1": "快狸深度评测（2026）：轻量易用体验、多平台适配与适用人群解析",
+      "title": "快狸真实评测（2026 排名第 3）：原价 15 元 50G + 优惠码 kl888，新手低门槛入门首选 &#8211; AIRPORTCHA",
+      "description": "快狸为什么排在第三名？打折前 15 元/月含 50G 流量，结账用优惠码 kl888 更省。真实拆解 15 元档位怎么选，适合哪些轻中度用户。",
+      "h1": "快狸真实评测（2026 排名第 3）：原价 15 元 50G + 优惠码 kl888，新手低门槛入门首选",
       "canonical": "https://airportcha.com/reviews/kuaili-review/",
-      "bytes": 39230
+      "bytes": 40242
     },
     {
       "url": "https://airportcha.com/reviews/speedworld-review/",
       "path": "/reviews/speedworld-review/",
-      "title": "速界（SpeedWorld）深度评测（2026）：高性价比日常接入与多设备选购指南 &#8211; AIRPORTCHA",
-      "description": "全面解读速界（SpeedWorld）的品牌定位、多设备日常使用体验、性价比评估逻辑与购买注意事项，帮助预算敏感型用户理性选型。",
-      "h1": "速界（SpeedWorld）深度评测（2026）：高性价比日常接入与多设备选购指南",
+      "title": "速界真实评测（2026 排名第 4）：原价 15 元 50G + 优惠码 sujie888，实用亲民的日常选择 &#8211; AIRPORTCHA",
+      "description": "速界（SpeedWorld）为什么排第四？打折前 15 元/月含 50G 流量，结账填优惠码 sujie888。客观聊聊速界的优缺点和适合人群。",
+      "h1": "速界真实评测（2026 排名第 4）：原价 15 元 50G + 优惠码 sujie888，实用亲民的日常选择",
       "canonical": "https://airportcha.com/reviews/speedworld-review/",
-      "bytes": 39033
+      "bytes": 40273
     },
     {
       "url": "https://airportcha.com/shadowrocket-ios-rules-guide/",
@@ -270,7 +270,7 @@
       "description": "一、稳定机场核心判断标准 判断一款机场服务是否稳定，不能只看非高峰时段的单次测速峰值，而应重点考察工作日晚高峰（20:00–23:30）的丢包率、往返延迟抖动、多入口容灾能力以及客户端订阅更新稳定性。AIRPORTCHA 坚持客观透明原则：在没有跨运营商持续实测数据时，绝不武断宣称某品牌绝对最稳定，而是建议用",
       "h1": "稳定机场推荐与选购标准",
       "canonical": "https://airportcha.com/stable-airports/",
-      "bytes": 36220
+      "bytes": 36217
     },
     {
       "url": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
@@ -288,7 +288,7 @@
       "description": "一、什么是真正的「高性价比机场」？ 评估机场服务的性价比，不能只看最低起步标价或名义上的超大流量，而应计算「晚高峰有效可用流量的单位成本」。如果一款超低价服务在晚高峰频繁断流、无法打开常用海外网站与 AI 工具，其实际使用价值反而低于价格适中但全天候流畅的稳健方案。 二、白名单多品牌综合对比 三、不同预算与计",
       "h1": "性价比机场推荐与套餐价值分析",
       "canonical": "https://airportcha.com/value-airports/",
-      "bytes": 30196
+      "bytes": 30186
     }
   ]
 }

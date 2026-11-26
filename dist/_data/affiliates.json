@@ -1,8 +1,8 @@
 {
-  "speedworld": {
-    "name": "速界",
-    "brandUrl": "/brands/speedworld/",
-    "targetUrl": "https://pygllc.speedworldaff.cc/#/?code=7s0EsI7w",
+  "kexinyun": {
+    "name": "可信云",
+    "brandUrl": "/brands/kexinyun/",
+    "targetUrl": "https://everett7623.kosingaff.com/#/?code=4PQnpXx6",
     "status": "active"
   },
   "edgenova": {
@@ -11,10 +11,10 @@
     "targetUrl": "https://wep.edgenovaaff.com/#/?code=4wmwcLDL",
     "status": "active"
   },
-  "kexinyun": {
-    "name": "可信云",
-    "brandUrl": "/brands/kexinyun/",
-    "targetUrl": "https://everett7623.kosingaff.com/#/?code=4PQnpXx6",
+  "speedworld": {
+    "name": "速界",
+    "brandUrl": "/brands/speedworld/",
+    "targetUrl": "https://pygllc.speedworldaff.cc/#/?code=7s0EsI7w",
     "status": "active"
   },
   "kuaili": {

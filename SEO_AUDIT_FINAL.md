@@ -1,6 +1,6 @@
 # 全站 SEO 与内部链接自动审计报告（SEO_AUDIT_FINAL）
 
-> 生成时间：2026-11-26T14:56:01.255Z
+> 生成时间：2026-11-26T15:57:06.338Z
 
 ## 1. 审计总览
 
@@ -18,11 +18,11 @@
 | `/blog/` | 65 | 10 | 1 |
 | `/brands/` | 78 | 14 | 1 |
 | `/brands/edgenova/` | 20 | 10 | 1 |
-| `/brands/guangnianti/` | 27 | 10 | 1 |
+| `/brands/guangnianti/` | 24 | 10 | 1 |
 | `/brands/jilianyun/` | 24 | 10 | 1 |
-| `/brands/kexinyun/` | 19 | 10 | 1 |
+| `/brands/kexinyun/` | 18 | 10 | 1 |
 | `/brands/kuaili/` | 24 | 10 | 1 |
-| `/brands/speedworld/` | 18 | 10 | 1 |
+| `/brands/speedworld/` | 19 | 10 | 1 |
 | `/clash-verge-rev-setup-guide/` | 4 | 9 | 1 |
 | `/comparisons/` | 67 | 10 | 1 |
 | `/comparisons/guangnianti-vs-jilianyun/` | 4 | 11 | 1 |

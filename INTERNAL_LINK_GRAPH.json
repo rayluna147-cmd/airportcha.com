@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:56:01.255Z",
+  "generatedAt": "2026-11-26T15:57:06.337Z",
   "pageCount": 32,
   "orphanCount": 0,
   "brokenLinkCount": 0,
@@ -38,7 +38,7 @@
     },
     {
       "path": "/brands/guangnianti/",
-      "inbound": 27,
+      "inbound": 24,
       "outbound": 10,
       "clickDepth": 1
     },
@@ -50,7 +50,7 @@
     },
     {
       "path": "/brands/kexinyun/",
-      "inbound": 19,
+      "inbound": 18,
       "outbound": 10,
       "clickDepth": 1
     },
@@ -62,7 +62,7 @@
     },
     {
       "path": "/brands/speedworld/",
-      "inbound": 18,
+      "inbound": 19,
       "outbound": 10,
       "clickDepth": 1
     },
