@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /go/
+Disallow: /?s=
+Sitemap: https://airportcha.com/sitemap.xml

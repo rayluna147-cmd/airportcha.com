@@ -1,0 +1,37 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
+  "features": {
+    "networking": true
+  },
+  "siteOptions": {
+    "blogname": "AIRPORTCHA",
+    "blogdescription": "独立网络科技资讯、机场服务评测与全球节点指南",
+    "WPLANG": "zh_CN",
+    "permalink_structure": "/%postname%/",
+    "timezone_string": "Asia/Shanghai",
+    "date_format": "Y年n月j日",
+    "time_format": "H:i"
+  },
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginPath": "airportcha-core/airportcha-core.php"
+    },
+    {
+      "step": "activateTheme",
+      "themeFolderName": "airportcha"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require_once '/wordpress/wp-load.php'; if (class_exists('Airportcha_Seeder')) { Airportcha_Seeder::seed(false); } flush_rewrite_rules(true); ?>"
+    }
+  ]
+}

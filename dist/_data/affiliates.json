@@ -1,0 +1,62 @@
+{
+  "speedworld": {
+    "name": "速界",
+    "brandUrl": "/brands/speedworld/",
+    "targetUrl": "https://pygllc.speedworldaff.cc/#/?code=7s0EsI7w",
+    "status": "active"
+  },
+  "edgenova": {
+    "name": "边缘节点",
+    "brandUrl": "/brands/edgenova/",
+    "targetUrl": "https://wep.edgenovaaff.com/#/?code=4wmwcLDL",
+    "status": "active"
+  },
+  "kexinyun": {
+    "name": "可信云",
+    "brandUrl": "/brands/kexinyun/",
+    "targetUrl": "https://everett7623.kosingaff.com/#/?code=4PQnpXx6",
+    "status": "active"
+  },
+  "kuaili": {
+    "name": "快狸",
+    "brandUrl": "/brands/kuaili/",
+    "targetUrl": "https://aolaiyun01.kuailiaff.com/#/?code=AFR8PsiY",
+    "status": "active"
+  },
+  "jilianyun": {
+    "name": "极连云",
+    "brandUrl": "/brands/jilianyun/",
+    "targetUrl": "https://haozevpn02.jlyvipaff.com/#/?code=6aTAi9bW",
+    "status": "active"
+  },
+  "quantum-node": {
+    "name": "量子节点",
+    "brandUrl": "/brands/quantum-node/",
+    "targetUrl": "",
+    "status": "pending"
+  },
+  "bluewhale-link": {
+    "name": "蓝鲸专线",
+    "brandUrl": "/brands/bluewhale-link/",
+    "targetUrl": "",
+    "status": "pending"
+  },
+  "aurora-net": {
+    "name": "极光网络",
+    "brandUrl": "/brands/aurora-net/",
+    "targetUrl": "",
+    "status": "pending"
+  },
+  "xingyun-cloud": {
+    "name": "星云加速",
+    "brandUrl": "/brands/xingyun-cloud/",
+    "targetUrl": "",
+    "status": "pending"
+  },
+  "guangnianti": {
+    "name": "光年梯",
+    "brandUrl": "/brands/guangnianti/",
+    "targetUrl": "https://gnt001.gntvipaff.cc/#/?code=FRrxGbbY",
+    "status": "active"
+  }
+}

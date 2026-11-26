@@ -1,0 +1,158 @@
+[
+  {
+    "title": "关于我们",
+    "excerpt": "关于 AIRPORTCHA AIRPORTCHA（airportcha.com）是一家面向全球中文用户的独立网络科技内容与机场服务评测平台。我们致力于通过透明的测试方法、持续更新的品牌目录以及通俗易懂的技术教程，帮助用户在复杂的网络服务市场中做出理性、可靠的选择。 我们的评测原则",
+    "url": "/about/",
+    "type": "页面"
+  },
+  {
+    "title": "网络知识",
+    "excerpt": "系统讲解 Trojan、VLESS、Hysteria2、IPLC/IEPL 专线及 DNS 防泄漏等网络基础知识。",
+    "url": "/knowledge/",
+    "type": "页面"
+  },
+  {
+    "title": "使用教程",
+    "excerpt": "覆盖 Windows、macOS、iOS、Android 与路由器的客户端安装与分流规则实战教程。",
+    "url": "/guides/",
+    "type": "页面"
+  },
+  {
+    "title": "博客",
+    "excerpt": "聚焦全球网络科技趋势、跨境办公效率工具与行业动态。",
+    "url": "/blog/",
+    "type": "页面"
+  },
+  {
+    "title": "机场推荐",
+    "excerpt": "以下榜单由 AIRPORTCHA 编辑部结合近 30 天晚高峰测速、线路稳定性、AI 与流媒体解锁表现及性价比综合评选，所有数据均与后台品牌目录实时同步。 主流机场核心参数快速对比",
+    "url": "/recommend/",
+    "type": "页面"
+  },
+  {
+    "title": "Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？",
+    "excerpt": "对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。",
+    "url": "/trojan-vless-hysteria2-comparison/",
+    "type": "文章"
+  },
+  {
+    "title": "IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理",
+    "excerpt": "深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。",
+    "url": "/iplc-iepl-vs-transit-explained/",
+    "type": "文章"
+  },
+  {
+    "title": "iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程",
+    "excerpt": "详解 Shadowrocket 订阅自动更新、按地区自动选优与流媒体/AI 专属分流配置技巧。",
+    "url": "/shadowrocket-ios-rules-guide/",
+    "type": "文章"
+  },
+  {
+    "title": "Clash Verge Rev 新手完全配置教程（Windows / macOS）",
+    "excerpt": "手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。",
+    "url": "/clash-verge-rev-setup-guide/",
+    "type": "文章"
+  },
+  {
+    "title": "跨境远程办公网络优化指南：降低延迟与丢包的实用方案",
+    "excerpt": "面向海外协同办公、GitHub 与 AI 编程工具用户，分享稳定高效的网络分流与多节点容灾思路。",
+    "url": "/remote-work-network-optimization-guide/",
+    "type": "文章"
+  },
+  {
+    "title": "2026 年如何挑选靠谱的机场服务？五大核心指标全解析",
+    "excerpt": "从线路类型、协议生态、晚高峰实测到隐私与付费策略，一文掌握判断机场服务质量的核心方法。",
+    "url": "/how-to-choose-reliable-airport-2026/",
+    "type": "文章"
+  },
+  {
+    "title": "速界",
+    "excerpt": "速界品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "url": "/brands/speedworld/",
+    "type": "品牌"
+  },
+  {
+    "title": "边缘节点",
+    "excerpt": "边缘节点品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "url": "/brands/edgenova/",
+    "type": "品牌"
+  },
+  {
+    "title": "可信云",
+    "excerpt": "可信云品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "url": "/brands/kexinyun/",
+    "type": "品牌"
+  },
+  {
+    "title": "快狸",
+    "excerpt": "快狸品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "url": "/brands/kuaili/",
+    "type": "品牌"
+  },
+  {
+    "title": "极连云",
+    "excerpt": "极连云品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "url": "/brands/jilianyun/",
+    "type": "品牌"
+  },
+  {
+    "title": "量子节点",
+    "excerpt": "量子节点侧重新兴协议实验与低延迟游戏加速线路。",
+    "url": "/brands/quantum-node/",
+    "type": "品牌"
+  },
+  {
+    "title": "蓝鲸专线",
+    "excerpt": "蓝鲸专线以按量不限时流量包为特色，非常适合作为备用机场使用。",
+    "url": "/brands/bluewhale-link/",
+    "type": "品牌"
+  },
+  {
+    "title": "极光网络",
+    "excerpt": "极光网络主打北美与欧洲商务线路，适合海外 SaaS 访问与跨国会议。",
+    "url": "/brands/aurora-net/",
+    "type": "品牌"
+  },
+  {
+    "title": "星云加速",
+    "excerpt": "星云加速定位均衡型中高端机场，兼顾公网中转与部分 IEPL 节点，价格亲民且流量配额充足。",
+    "url": "/brands/xingyun-cloud/",
+    "type": "品牌"
+  },
+  {
+    "title": "光年梯",
+    "excerpt": "光年梯是当前综合表现突出的高端专线机场之一，主打全链路 IPLC/IEPL 跨境专线与 AI 生产力工具稳定解锁。",
+    "url": "/brands/guangnianti/",
+    "type": "品牌"
+  },
+  {
+    "title": "极光网络评测：欧美商务线路与跨国远程办公实测体验",
+    "excerpt": "深度体验极光网络的欧美节点质量，评估其在跨国视频会议、海外 SaaS 与代码仓库拉取中的稳定性。",
+    "url": "/reviews/aurora-net-review/",
+    "type": "评测"
+  },
+  {
+    "title": "星云加速实测评测：高性价比中转机场能否满足日常 4K 与 AI 需求？",
+    "excerpt": "针对预算敏感型用户，我们实测了星云加速的日间与晚高峰带宽表现，看看它在 20 元档位是否物有所值。",
+    "url": "/reviews/xingyun-cloud-review/",
+    "type": "评测"
+  },
+  {
+    "title": "光年梯深度评测（2026）：晚高峰速度、IPLC 稳定性与 AI 解锁实测",
+    "excerpt": "我们对光年梯进行了为期 14 天的多时段测速与流媒体、ChatGPT/Claude 解锁实测，客观分析其真实表现与适用人群。",
+    "url": "/reviews/guangnianti-review/",
+    "type": "评测"
+  },
+  {
+    "title": "2026 主流 IPLC 专线机场横向对比：光年梯、极光网络与量子节点",
+    "excerpt": "横向对比三款热门专线及前沿协议机场，帮你快速匹配最适合自己网络环境的方案。",
+    "url": "/comparisons/iplc-airports-comparison-2026/",
+    "type": "对比"
+  },
+  {
+    "title": "光年梯 vs 星云加速：专线稳健派与高性价比中转如何选？",
+    "excerpt": "从线路架构、晚高峰速度、AI 解锁、价格与适用人群五个维度，全面对比光年梯与星云加速。",
+    "url": "/comparisons/guangnianti-vs-xingyun/",
+    "type": "对比"
+  }
+]

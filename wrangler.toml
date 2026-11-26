@@ -1,0 +1,9 @@
+name = "airportcha"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-01-01"
+
+# 可选：在 Cloudflare 控制台创建 D1 数据库后取消下方注释并填入真实 database_id
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "airportcha-stats"
+# database_id = "YOUR_D1_DATABASE_ID"

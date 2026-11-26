@@ -1,0 +1,16 @@
+{
+  "name": "airportcha-wordpress",
+  "version": "2.0.0",
+  "description": "AIRPORTCHA WordPress Multi-Brand Review Platform & Cloudflare Pages Static Publisher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/start-wp.mjs",
+    "export": "node scripts/export-static.mjs",
+    "build": "node scripts/export-static.mjs && node scripts/validate-dist.mjs",
+    "preview": "node scripts/preview-static.mjs",
+    "check": "node scripts/validate-dist.mjs",
+    "validate": "node scripts/validate-dist.mjs --strict",
+    "indexnow": "node scripts/indexnow.mjs"
+  }
+}

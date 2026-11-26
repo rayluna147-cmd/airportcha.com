@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.wp-data/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+reports/
