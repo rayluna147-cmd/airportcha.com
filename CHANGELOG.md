@@ -1,5 +1,13 @@
 # 变更日志（CHANGELOG）
 
+## [3.0.2] - 2026-11-26（Phase 03.6：本地离线预览 `dist-offline/` 与 Windows 一键预览工具）
+
+### 新增
+- 新增 `scripts/build-offline.mjs` 与 `npm run build:offline`（并自动集成至 `npm run build`），每次构建自动生成支持 `file://` 直接双击打开与页面跳转的 `dist-offline/`。
+- 新增根目录 `打开网站预览.bat`（一键启动 HTTP 预览并打开浏览器）与 `打开离线首页.html`（直接双击离线预览）。
+- 将 `dist-offline/` 加入 `.gitignore`，保持 GitHub 与 Cloudflare Pages 正式部署目录 `dist/` 干净独立。
+- 新增 `PHASE_3_6_REPORT.md`。
+
 ## [3.0.1] - 2026-11-26（Phase 03.5：静态资源完整性校验升级与真实浏览器视觉验收）
 
 ### 修复与升级
