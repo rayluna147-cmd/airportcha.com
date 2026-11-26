@@ -1,5 +1,5 @@
 import { spawn } from 'node:child_process';
-import { copyFileSync, existsSync, mkdirSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join, resolve } from 'node:path';
 
@@ -226,6 +226,15 @@ async function run() {
 
     const robotsTxt = `User-agent: *\nDisallow: /wp-admin/\nDisallow: /go/\nDisallow: /?s=\nSitemap: ${SITE_URL}/sitemap.xml\n`;
     writeFileSync(join(DIST, 'robots.txt'), robotsTxt, 'utf8');
+
+    // 6.5 拷贝持久化 IndexNow 公开验证密钥文件至 dist/<KEY>.txt
+    const keyFile = resolve(ROOT, 'config', 'indexnow-key.txt');
+    if (existsSync(keyFile)) {
+      const keyVal = readFileSync(keyFile, 'utf8').trim();
+      if (/^[a-zA-Z0-9-]{8,128}$/.test(keyVal)) {
+        writeFileSync(join(DIST, `${keyVal}.txt`), keyVal, 'utf8');
+      }
+    }
 
     // 7. 生成 Cloudflare Pages _headers 与 _routes.json
     const headersTxt = `/*\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: strict-origin-when-cross-origin\n\n/wp-content/*\n  Cache-Control: public, max-age=31536000, immutable\n\n/_data/*\n  Cache-Control: public, max-age=300\n`;

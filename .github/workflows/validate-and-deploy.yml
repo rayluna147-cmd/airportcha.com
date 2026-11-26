@@ -1,4 +1,4 @@
-name: Validate AIRPORTCHA Static Dist
+name: Validate & Auto IndexNow
 
 on:
   push:
@@ -14,5 +14,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate dist SEO and integrity
+      - name: Validate dist SEO, assets, and brand whitelist
         run: npm run validate
+
+  indexnow:
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Wait for Cloudflare Pages deployment and submit IndexNow diff
+        run: |
+          sleep 45
+          npm run indexnow
