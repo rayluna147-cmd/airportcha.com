@@ -42,6 +42,8 @@ copyDirSafe(DIST, OFFLINE);
 
 const affPath = join(DIST, '_data', 'affiliates.json');
 const affiliates = existsSync(affPath) ? JSON.parse(readFileSync(affPath, 'utf8')) : {};
+const styleCssPath = join(DIST, 'wp-content', 'themes', 'airportcha', 'style.css');
+const inlineCss = existsSync(styleCssPath) ? readFileSync(styleCssPath, 'utf8') : '';
 
 const htmlFiles = walkHtml(OFFLINE);
 const escapedSite = SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -53,8 +55,16 @@ for (const file of htmlFiles) {
 
   let html = readFileSync(file, 'utf8');
 
-  // 1. 转换 /wp-content/ 静态资源为相对路径（支持 file:// 加载 CSS/JS/图片）
-  html = html.replace(/(href|src)=["']\/wp-content\/([^"']+)["']/gi, `$1="${prefix}wp-content/$2"`);
+  // 1. 将主样式表直接内联至离线 HTML（确保任意浏览器在 file:// 下 100% 显示完整 UI）
+  if (inlineCss) {
+    html = html.replace(
+      /<link[^>]+id=['"]airportcha-style-css['"][^>]*>/i,
+      `<style id="airportcha-inline-css">\n${inlineCss}\n</style>`
+    );
+  }
+
+  // 2. 转换其余 /wp-content/ 静态资源为相对路径并去掉 ?ver= 参数
+  html = html.replace(/(href|src)=["']\/wp-content\/([^"'?]+)(?:\?[^"']*)?["']/gi, `$1="${prefix}wp-content/$2"`);
 
   // 2. 离线模式下将 /go/{slug}/ 转换为真实外部推广链接或品牌档案页，方便本地预览体验
   html = html.replace(
