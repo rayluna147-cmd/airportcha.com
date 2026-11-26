@@ -1,5 +1,13 @@
 # 变更日志（CHANGELOG）
 
+## [6.0.0] - 2026-11-26（Phase 06：6 大品牌评测 ≥ 2000 字达标、3 大一级核心专题与全站零死链）
+
+### 新增与修复
+- 扩充极连云、快狸、可信云、边缘节点、速界 5 篇评测，使全部 6 大正式白名单品牌评测正文均达到 **2000–2215 中文字符**，并将 2000 字门禁写入 `scripts/validate-brands.mjs`。
+- 新增一级专题模板 `page-templates/template-pillar.php` 及 3 个独立一级核心流量专题：`/stable-airports/`、`/value-airports/`、`/pricing/`。
+- 修复 `functions.php` 文章面包屑归档链接，全站实现 **孤立页 = 0、失效内链 = 0**，`/recommend/` 入站内链提升至 **76 条**。
+- 新增 `PILLAR_PAGE_REGISTRY.md`、`PHASE_6_REPORT.md`、`PHASE_7_PLAN.md`。
+
 ## [5.0.0] - 2026-11-26（Phase 05：Bing SEO 高级技术架构、内链图谱、GEO `@id` 与性能优化）
 
 ### 新增与优化

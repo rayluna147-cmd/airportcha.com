@@ -107,6 +107,42 @@ class Airportcha_Seeder {
 		);
 
 		self::ensure_page(
+			'稳定机场推荐与选购标准',
+			'stable-airports',
+			'<!-- wp:heading --><h2>一、稳定机场核心判断标准</h2><!-- /wp:heading -->' .
+			'<!-- wp:paragraph --><p>判断一款机场服务是否稳定，不能只看非高峰时段的单次测速峰值，而应重点考察工作日晚高峰（20:00–23:30）的丢包率、往返延迟抖动、多入口容灾能力以及客户端订阅更新稳定性。AIRPORTCHA 坚持客观透明原则：在没有跨运营商持续实测数据时，绝不武断宣称某品牌绝对最稳定，而是建议用户通过月付方案结合本地宽带实测。</p><!-- /wp:paragraph -->' .
+			'<!-- wp:heading --><h2>二、稳定性优先的白名单候选品牌</h2><!-- /wp:heading -->' .
+			'<!-- wp:shortcode -->[airportcha_ranking_board limit="6" slot="pillar_stable"]<!-- /wp:shortcode -->' .
+			'<!-- wp:heading --><h2>三、如何构建主备双线路容灾方案？</h2><!-- /wp:heading -->' .
+			'<!-- wp:paragraph --><p>对于重度跨境办公、代码开发与 AI 生产力用户，最稳妥的稳定性策略不是寄希望于单一线路永不波动，而是采用「核心主力品牌（如光年梯）+ 独立备用品牌（如极连云、可信云或边缘节点）」的双订阅架构。在 Clash Verge Rev 或 Shadowrocket 中同时导入两套订阅，遇局部路由维护可秒级切换。</p><!-- /wp:paragraph -->',
+			'page-templates/template-pillar.php'
+		);
+
+		self::ensure_page(
+			'性价比机场推荐与套餐价值分析',
+			'value-airports',
+			'<!-- wp:heading --><h2>一、什么是真正的「高性价比机场」？</h2><!-- /wp:heading -->' .
+			'<!-- wp:paragraph --><p>评估机场服务的性价比，不能只看最低起步标价或名义上的超大流量，而应计算「晚高峰有效可用流量的单位成本」。如果一款超低价服务在晚高峰频繁断流、无法打开常用海外网站与 AI 工具，其实际使用价值反而低于价格适中但全天候流畅的稳健方案。</p><!-- /wp:paragraph -->' .
+			'<!-- wp:heading --><h2>二、白名单多品牌综合对比</h2><!-- /wp:heading -->' .
+			'<!-- wp:shortcode -->[airportcha_comparison_table limit="6"]<!-- /wp:shortcode -->' .
+			'<!-- wp:heading --><h2>三、不同预算与计费周期的理性选择建议</h2><!-- /wp:heading -->' .
+			'<!-- wp:paragraph --><p>1）<strong>首次试错一律优先月付</strong>：先花一个月预算在本地宽带与 5G 下检验真实体验；2）<strong>按真实月耗选档位</strong>：日常文字办公与 AI 使用每月 50GB–150GB 足够，重度 4K 视频建议 200GB 以上；3）<strong>理性对比白名单品牌</strong>：追求全能主力可优先考察光年梯与极连云，注重轻量易用与预算控制可同步对比快狸与速界。</p><!-- /wp:paragraph -->',
+			'page-templates/template-pillar.php'
+		);
+
+		self::ensure_page(
+			'机场价格与套餐对比中心',
+			'pricing',
+			'<!-- wp:heading --><h2>一、机场服务主流计费周期解析</h2><!-- /wp:heading -->' .
+			'<!-- wp:paragraph --><p>目前主流机场服务主要提供月付、季付、年付及按量不限时四类计费周期。AIRPORTCHA 严格区分不同计费周期，绝不将年付折合月均价与单月付价格混排误导用户。实时售价、流量配额与限时优惠请始终以各品牌官方结算页为准。</p><!-- /wp:paragraph -->' .
+			'<!-- wp:heading --><h2>二、白名单品牌套餐价格矩阵</h2><!-- /wp:heading -->' .
+			'<!-- wp:shortcode -->[airportcha_plans_matrix limit="6"]<!-- /wp:shortcode -->' .
+			'<!-- wp:heading --><h2>三、购买套餐前必查的 4 项条款</h2><!-- /wp:heading -->' .
+			'<!-- wp:list --><ul><li><strong>节点倍率</strong>：确认高成本专线节点是否按 1.5x / 2x 扣减流量。</li><li><strong>同时在线设备数</strong>：核对手机、电脑、平板同时在线是否受限。</li><li><strong>流量重置周期</strong>：确认是按自然月 1 日重置还是按购买日顺延 30 天重置。</li><li><strong>公平使用政策（FUP）与退款规则</strong>：避免未经测试直接投入大额年付。</li></ul><!-- /wp:list -->',
+			'page-templates/template-pillar.php'
+		);
+
+		self::ensure_page(
 			'关于我们',
 			'about',
 			'<!-- wp:heading --><h2>关于 AIRPORTCHA</h2><!-- /wp:heading -->' .

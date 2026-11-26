@@ -56,7 +56,10 @@ function airportcha_breadcrumbs() {
 	} elseif ( is_singular( 'post' ) ) {
 		$cats = get_the_category();
 		if ( ! empty( $cats ) ) {
-			echo ' <span>/</span> <a href="' . esc_url( get_category_link( $cats[0]->term_id ) ) . '">' . esc_html( $cats[0]->name ) . '</a>';
+			$hub_url = in_array( $cats[0]->slug, array( 'blog', 'guides', 'knowledge' ), true )
+				? home_url( '/' . $cats[0]->slug . '/' )
+				: get_category_link( $cats[0]->term_id );
+			echo ' <span>/</span> <a href="' . esc_url( $hub_url ) . '">' . esc_html( $cats[0]->name ) . '</a>';
 		}
 		echo ' <span>/</span> <span>' . esc_html( get_the_title() ) . '</span>';
 	} elseif ( is_page() ) {

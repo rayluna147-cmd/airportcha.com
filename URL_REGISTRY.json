@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T14:18:58.076Z",
-  "count": 29,
+  "generatedAt": "2026-11-26T14:56:01.254Z",
+  "count": 32,
   "urls": [
     {
       "url": "https://airportcha.com/about/",
@@ -9,7 +9,7 @@
       "description": "关于 AIRPORTCHA AIRPORTCHA（airportcha.com）是一家面向全球中文用户的独立网络科技内容与多品牌机场评测平台。我们通过透明的品牌档案、客观的评测方法与实用技术教程，帮助用户理性选择网络服务。 我们的评测与商业披露原则 多品牌独立对比：仅收录经过核验的正式白名单品牌，既分析核心特",
       "h1": "关于我们",
       "canonical": "https://airportcha.com/about/",
-      "bytes": 23301
+      "bytes": 23304
     },
     {
       "url": "https://airportcha.com/blog/",
@@ -90,7 +90,7 @@
       "description": "手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。",
       "h1": "Clash Verge Rev 新手完全配置教程（Windows / macOS）",
       "canonical": "https://airportcha.com/clash-verge-rev-setup-guide/",
-      "bytes": 24618
+      "bytes": 24609
     },
     {
       "url": "https://airportcha.com/comparisons/guangnianti-vs-jilianyun/",
@@ -135,7 +135,7 @@
       "description": "从线路类型、协议生态、晚高峰实测到隐私与付费策略，一文掌握判断机场服务质量的核心方法。",
       "h1": "2026 年如何挑选靠谱的机场服务？五大核心指标全解析",
       "canonical": "https://airportcha.com/how-to-choose-reliable-airport-2026/",
-      "bytes": 24810
+      "bytes": 24801
     },
     {
       "url": "https://airportcha.com/",
@@ -153,7 +153,7 @@
       "description": "深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。",
       "h1": "IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理",
       "canonical": "https://airportcha.com/iplc-iepl-vs-transit-explained/",
-      "bytes": 24698
+      "bytes": 24689
     },
     {
       "url": "https://airportcha.com/knowledge/",
@@ -165,13 +165,22 @@
       "bytes": 23733
     },
     {
+      "url": "https://airportcha.com/pricing/",
+      "path": "/pricing/",
+      "title": "机场价格与套餐对比中心 &#8211; AIRPORTCHA",
+      "description": "一、机场服务主流计费周期解析 目前主流机场服务主要提供月付、季付、年付及按量不限时四类计费周期。AIRPORTCHA 严格区分不同计费周期，绝不将年付折合月均价与单月付价格混排误导用户。实时售价、流量配额与限时优惠请始终以各品牌官方结算页为准。 二、白名单品牌套餐价格矩阵 三、购买套餐前必查的 4 项条款 节",
+      "h1": "机场价格与套餐对比中心",
+      "canonical": "https://airportcha.com/pricing/",
+      "bytes": 28180
+    },
+    {
       "url": "https://airportcha.com/recommend/",
       "path": "/recommend/",
       "title": "机场推荐与排行榜：稳定性、价格、套餐及品牌对比 | AIRPORTCHA",
       "description": "AIRPORTCHA 机场推荐与品牌排行榜：基于晚高峰稳定性、价格套餐、协议支持与流媒体/AI 解锁维度客观对比多品牌机场服务，提供按需求选购指南与透明评测方法。",
       "h1": "机场推荐与品牌排行榜",
       "canonical": "https://airportcha.com/recommend/",
-      "bytes": 50411
+      "bytes": 50762
     },
     {
       "url": "https://airportcha.com/remote-work-network-optimization-guide/",
@@ -180,7 +189,7 @@
       "description": "面向海外协同办公、GitHub 与 AI 编程工具用户，分享稳定高效的网络分流与多节点容灾思路。",
       "h1": "跨境远程办公网络优化指南：降低延迟与丢包的实用方案",
       "canonical": "https://airportcha.com/remote-work-network-optimization-guide/",
-      "bytes": 24714
+      "bytes": 24705
     },
     {
       "url": "https://airportcha.com/reviews/edgenova-review/",
@@ -189,7 +198,7 @@
       "description": "深入解析边缘节点（EdgeNova）的品牌定位、跨区域路由特点、多平台客户端兼容与开发者适用场景，提供客观透明的选型参考。",
       "h1": "边缘节点（EdgeNova）深度评测（2026）：全球边缘路由定位与开发者选购指南",
       "canonical": "https://airportcha.com/reviews/edgenova-review/",
-      "bytes": 35498
+      "bytes": 39294
     },
     {
       "url": "https://airportcha.com/reviews/guangnianti-review/",
@@ -216,7 +225,7 @@
       "description": "全面解析极连云（JiLianYun）的产品定位、客户端适配、适用人群与选购注意事项，帮助用户在多品牌白名单中做出理性比较。",
       "h1": "极连云深度评测（2026）：多节点接入体验、协议兼容与选购建议",
       "canonical": "https://airportcha.com/reviews/jilianyun-review/",
-      "bytes": 36863
+      "bytes": 39119
     },
     {
       "url": "https://airportcha.com/reviews/kexinyun-review/",
@@ -225,7 +234,7 @@
       "description": "客观分析可信云（Kosing / KeXinYun）的品牌定位、多地区节点覆盖思路、客户端支持与选购建议，助力理性决策。",
       "h1": "可信云深度评测（2026）：稳定连接定位、多地区节点与选购指南",
       "canonical": "https://airportcha.com/reviews/kexinyun-review/",
-      "bytes": 35358
+      "bytes": 38855
     },
     {
       "url": "https://airportcha.com/reviews/kuaili-review/",
@@ -234,7 +243,7 @@
       "description": "深度梳理快狸（KuaiLi）的产品定位、客户端上手体验、日常使用场景与购买注意事项，助你快速判断快狸是否契合自身需求。",
       "h1": "快狸深度评测（2026）：轻量易用体验、多平台适配与适用人群解析",
       "canonical": "https://airportcha.com/reviews/kuaili-review/",
-      "bytes": 35781
+      "bytes": 39230
     },
     {
       "url": "https://airportcha.com/reviews/speedworld-review/",
@@ -243,7 +252,7 @@
       "description": "全面解读速界（SpeedWorld）的品牌定位、多设备日常使用体验、性价比评估逻辑与购买注意事项，帮助预算敏感型用户理性选型。",
       "h1": "速界（SpeedWorld）深度评测（2026）：高性价比日常接入与多设备选购指南",
       "canonical": "https://airportcha.com/reviews/speedworld-review/",
-      "bytes": 35467
+      "bytes": 39033
     },
     {
       "url": "https://airportcha.com/shadowrocket-ios-rules-guide/",
@@ -252,7 +261,16 @@
       "description": "详解 Shadowrocket 订阅自动更新、按地区自动选优与流媒体/AI 专属分流配置技巧。",
       "h1": "iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程",
       "canonical": "https://airportcha.com/shadowrocket-ios-rules-guide/",
-      "bytes": 24588
+      "bytes": 24579
+    },
+    {
+      "url": "https://airportcha.com/stable-airports/",
+      "path": "/stable-airports/",
+      "title": "稳定机场推荐与选购标准 &#8211; AIRPORTCHA",
+      "description": "一、稳定机场核心判断标准 判断一款机场服务是否稳定，不能只看非高峰时段的单次测速峰值，而应重点考察工作日晚高峰（20:00–23:30）的丢包率、往返延迟抖动、多入口容灾能力以及客户端订阅更新稳定性。AIRPORTCHA 坚持客观透明原则：在没有跨运营商持续实测数据时，绝不武断宣称某品牌绝对最稳定，而是建议用",
+      "h1": "稳定机场推荐与选购标准",
+      "canonical": "https://airportcha.com/stable-airports/",
+      "bytes": 36220
     },
     {
       "url": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
@@ -261,7 +279,16 @@
       "description": "对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。",
       "h1": "Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？",
       "canonical": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
-      "bytes": 24694
+      "bytes": 24685
+    },
+    {
+      "url": "https://airportcha.com/value-airports/",
+      "path": "/value-airports/",
+      "title": "性价比机场推荐与套餐价值分析 &#8211; AIRPORTCHA",
+      "description": "一、什么是真正的「高性价比机场」？ 评估机场服务的性价比，不能只看最低起步标价或名义上的超大流量，而应计算「晚高峰有效可用流量的单位成本」。如果一款超低价服务在晚高峰频繁断流、无法打开常用海外网站与 AI 工具，其实际使用价值反而低于价格适中但全天候流畅的稳健方案。 二、白名单多品牌综合对比 三、不同预算与计",
+      "h1": "性价比机场推荐与套餐价值分析",
+      "canonical": "https://airportcha.com/value-airports/",
+      "bytes": 30196
     }
   ]
 }

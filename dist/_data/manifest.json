@@ -1,118 +1,130 @@
 {
   "/": {
     "lastmod": "2026-11-26",
-    "hash": "afe30a14b64d3196"
+    "hash": "bc5a33a70ea7998d"
   },
   "/brands/": {
     "lastmod": "2026-11-26",
-    "hash": "5bae0c4524d84f58"
+    "hash": "d76c05b12fd5f3e1"
   },
   "/reviews/": {
     "lastmod": "2026-11-26",
-    "hash": "d531dbbc3ee77384"
+    "hash": "730dc258c466cfc3"
   },
   "/comparisons/": {
     "lastmod": "2026-11-26",
-    "hash": "a51a176181f9edf1"
+    "hash": "d6c687eb7f16dcbc"
   },
   "/about/": {
     "lastmod": "2026-11-26",
-    "hash": "251ff721a9f4e438"
+    "hash": "901ff94b1fbf7732"
+  },
+  "/pricing/": {
+    "lastmod": "2026-11-26",
+    "hash": "c009c2191c0fe6d5"
+  },
+  "/value-airports/": {
+    "lastmod": "2026-11-26",
+    "hash": "54400ee53afc646b"
+  },
+  "/stable-airports/": {
+    "lastmod": "2026-11-26",
+    "hash": "e8c6a73f4712ddf7"
   },
   "/knowledge/": {
     "lastmod": "2026-11-26",
-    "hash": "846f633ae8a1a810"
+    "hash": "db6bc6f2fe85b77e"
   },
   "/guides/": {
     "lastmod": "2026-11-26",
-    "hash": "06d5ad528228a63d"
+    "hash": "c7e060bef8f98152"
   },
   "/blog/": {
     "lastmod": "2026-11-26",
-    "hash": "fab1f7d2648c2d92"
+    "hash": "56df0780fac8ec6a"
   },
   "/recommend/": {
     "lastmod": "2026-11-26",
-    "hash": "a7e1484ab5a781b6"
+    "hash": "c9d1fb1d7ddcdbbf"
   },
   "/trojan-vless-hysteria2-comparison/": {
     "lastmod": "2026-11-26",
-    "hash": "e2a01b6c86eb44e3"
+    "hash": "30f4da58f17e881a"
   },
   "/iplc-iepl-vs-transit-explained/": {
     "lastmod": "2026-11-26",
-    "hash": "c891365523bfaf77"
+    "hash": "d599c08fe5973c13"
   },
   "/shadowrocket-ios-rules-guide/": {
     "lastmod": "2026-11-26",
-    "hash": "7cbe5629cbc77cce"
+    "hash": "cff39b6a7315adf1"
   },
   "/clash-verge-rev-setup-guide/": {
     "lastmod": "2026-11-26",
-    "hash": "4a56ac3880868b79"
+    "hash": "32d83c78e7fccac7"
   },
   "/remote-work-network-optimization-guide/": {
     "lastmod": "2026-11-26",
-    "hash": "d89f8e8a41a2b74e"
+    "hash": "4776036c85a63c33"
   },
   "/how-to-choose-reliable-airport-2026/": {
     "lastmod": "2026-11-26",
-    "hash": "4c3d720348a3b1e3"
+    "hash": "bc6184331227f23b"
   },
   "/brands/speedworld/": {
     "lastmod": "2026-11-26",
-    "hash": "b974e67d2989d83a"
+    "hash": "94533844535ba91b"
   },
   "/brands/edgenova/": {
     "lastmod": "2026-11-26",
-    "hash": "6258e415df12c022"
+    "hash": "4ac321da413a0e36"
   },
   "/brands/kexinyun/": {
     "lastmod": "2026-11-26",
-    "hash": "c6ce3ee5b9da4943"
+    "hash": "d084c831dd394608"
   },
   "/brands/kuaili/": {
     "lastmod": "2026-11-26",
-    "hash": "eadd0052d69f9239"
+    "hash": "496c7871fbe36ae3"
   },
   "/brands/jilianyun/": {
     "lastmod": "2026-11-26",
-    "hash": "a5c306985deb324c"
+    "hash": "fba4b4beef16fb1a"
   },
   "/brands/guangnianti/": {
     "lastmod": "2026-11-26",
-    "hash": "bf6c1aa9c45d05be"
+    "hash": "7622f30f66f4e093"
   },
   "/reviews/speedworld-review/": {
     "lastmod": "2026-11-26",
-    "hash": "9080a9f9f7781486"
+    "hash": "74f0c99207fb07e9"
   },
   "/reviews/edgenova-review/": {
     "lastmod": "2026-11-26",
-    "hash": "a917977e8229c606"
+    "hash": "be42d7d37196aa17"
   },
   "/reviews/kexinyun-review/": {
     "lastmod": "2026-11-26",
-    "hash": "da63c9f15851597c"
+    "hash": "79c65b73a12c54cd"
   },
   "/reviews/kuaili-review/": {
     "lastmod": "2026-11-26",
-    "hash": "87d02cf95ad746dc"
+    "hash": "97fb4aaccd695624"
   },
   "/reviews/jilianyun-review/": {
     "lastmod": "2026-11-26",
-    "hash": "8eed63b0a4a7070c"
+    "hash": "1d7e5833daf1fe85"
   },
   "/reviews/guangnianti-review/": {
     "lastmod": "2026-11-26",
-    "hash": "c2bc6065764e76d4"
+    "hash": "2d19cf3d7c754c79"
   },
   "/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/": {
     "lastmod": "2026-11-26",
-    "hash": "f6afd04396b5446a"
+    "hash": "3b0e053e8b4bd74a"
   },
   "/comparisons/guangnianti-vs-jilianyun/": {
     "lastmod": "2026-11-26",
-    "hash": "784e3ada0a1ef91a"
+    "hash": "b3c5601530098ac4"
   }
 }

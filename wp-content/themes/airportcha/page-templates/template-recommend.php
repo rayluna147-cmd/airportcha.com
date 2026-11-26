@@ -119,6 +119,9 @@ while ( have_posts() ) :
 			<section class="ac-score-box" style="margin-bottom:0;">
 				<h3 style="margin:0 0 10px;font-size:17px;color:var(--ac-navy);">延伸阅读与相关栏目</h3>
 				<div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px;">
+					<a class="ac-btn ac-btn-sm ac-btn-outline" href="<?php echo esc_url( home_url( '/stable-airports/' ) ); ?>">稳定机场专题</a>
+					<a class="ac-btn ac-btn-sm ac-btn-outline" href="<?php echo esc_url( home_url( '/value-airports/' ) ); ?>">性价比机场专题</a>
+					<a class="ac-btn ac-btn-sm ac-btn-outline" href="<?php echo esc_url( home_url( '/pricing/' ) ); ?>">机场价格与套餐</a>
 					<a class="ac-btn ac-btn-sm ac-btn-outline" href="<?php echo esc_url( home_url( '/brands/' ) ); ?>">全部品牌目录</a>
 					<a class="ac-btn ac-btn-sm ac-btn-outline" href="<?php echo esc_url( home_url( '/reviews/' ) ); ?>">深度品牌评测</a>
 					<a class="ac-btn ac-btn-sm ac-btn-outline" href="<?php echo esc_url( home_url( '/comparisons/' ) ); ?>">品牌横向比较</a>

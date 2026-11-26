@@ -54,6 +54,10 @@ for (const [slug, info] of Object.entries(WHITELIST)) {
     errors.push(`品牌 ${info.name} (${slug}) 推广链接未生效或缺少邀请参数 ${info.expectedCode}`);
   }
 
+  if (zhCount < 2000) {
+    errors.push(`品牌 ${info.name} (${slug}) 评测正文中文字符不足 2000 字（当前 ${zhCount} 字）`);
+  }
+
   console.log(`- ${info.name} (${slug}): 档案=OK | 评测正文中文字符=${zhCount} | 推广链接=${affOk ? 'ACTIVE (code保留)' : 'FAIL'}`);
 }
 
