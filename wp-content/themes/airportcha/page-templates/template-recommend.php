@@ -22,9 +22,9 @@ while ( have_posts() ) :
 			<div class="ac-tldr-box">
 				<h2 style="margin:0 0 10px;font-size:20px;color:var(--ac-navy);">核心结论与快速选型建议</h2>
 				<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:15px;">
-					<li><strong>追求晚高峰稳定与 AI/开发办公</strong>：优先考虑全链路 IPLC/IEPL 专线品牌（如当前核心主推的 <a href="<?php echo esc_url( home_url( '/brands/guangnianti/' ) ); ?>">光年梯</a>）。</li>
-					<li><strong>预算有限、日常 4K 观影与大流量</strong>：优先选择高性价比中转 + 精选专线方案（如 <a href="<?php echo esc_url( home_url( '/brands/xingyun-cloud/' ) ); ?>">星云加速</a>）。</li>
-					<li><strong>轻度使用或作为主力备用线路</strong>：优先考虑不限时按量流量包方案（如 <a href="<?php echo esc_url( home_url( '/brands/bluewhale-link/' ) ); ?>">蓝鲸专线</a>）。</li>
+					<li><strong>追求晚高峰稳定与 AI/开发办公</strong>：优先考虑当前核心主推品牌 <a href="<?php echo esc_url( home_url( '/brands/guangnianti/' ) ); ?>">光年梯</a>（查看 <a href="<?php echo esc_url( home_url( '/reviews/guangnianti-review/' ) ); ?>">光年梯深度评测</a>）。</li>
+					<li><strong>兼顾日常稳定性与多设备均衡体验</strong>：优先对比重点合作品牌 <a href="<?php echo esc_url( home_url( '/brands/jilianyun/' ) ); ?>">极连云</a> 与 <a href="<?php echo esc_url( home_url( '/brands/kuaili/' ) ); ?>">快狸</a>。</li>
+					<li><strong>预算控制、技术开发或主备双线路容灾</strong>：可同步考察 <a href="<?php echo esc_url( home_url( '/brands/kexinyun/' ) ); ?>">可信云</a>、<a href="<?php echo esc_url( home_url( '/brands/edgenova/' ) ); ?>">边缘节点</a> 与 <a href="<?php echo esc_url( home_url( '/brands/speedworld/' ) ); ?>">速界</a>。</li>
 					<li><strong>避坑原则</strong>：首次购买建议优先月付实测一周晚高峰表现，确认延迟与解锁符合预期后再考虑长期续费。</li>
 				</ul>
 			</div>

@@ -29,30 +29,6 @@
     "targetUrl": "https://haozevpn02.jlyvipaff.com/#/?code=6aTAi9bW",
     "status": "active"
   },
-  "quantum-node": {
-    "name": "量子节点",
-    "brandUrl": "/brands/quantum-node/",
-    "targetUrl": "",
-    "status": "pending"
-  },
-  "bluewhale-link": {
-    "name": "蓝鲸专线",
-    "brandUrl": "/brands/bluewhale-link/",
-    "targetUrl": "",
-    "status": "pending"
-  },
-  "aurora-net": {
-    "name": "极光网络",
-    "brandUrl": "/brands/aurora-net/",
-    "targetUrl": "",
-    "status": "pending"
-  },
-  "xingyun-cloud": {
-    "name": "星云加速",
-    "brandUrl": "/brands/xingyun-cloud/",
-    "targetUrl": "",
-    "status": "pending"
-  },
   "guangnianti": {
     "name": "光年梯",
     "brandUrl": "/brands/guangnianti/",

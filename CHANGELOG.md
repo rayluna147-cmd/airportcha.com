@@ -1,5 +1,14 @@
 # 变更日志（CHANGELOG）
 
+## [4.0.0] - 2026-11-26（Phase 04：真实品牌白名单清理、6 大品牌深度评测与自动验收门禁）
+
+### 新增与变更
+- 彻底清理 4 个旧示例品牌（星云加速、极光网络、蓝鲸专线、量子节点），全站严格运营 6 个正式白名单品牌（光年梯、极连云、快狸、可信云、边缘节点、速界）。
+- 新增 `includes/brand-reviews-data.php`，为 6 个正式品牌建立独立深度评测与 2 篇真实品牌横向对比。
+- 升级 `single-review.php` 与 `assets/js/main.js`，新增自动文章目录（TOC）、品牌 Logo 与返回 `/recommend/` 入口。
+- 新增 `scripts/validate-brands.mjs` 并集成至 `npm run build` / `npm run validate`，自动验收白名单、评测字数与邀请参数保留。
+- 更新 `AGENTS.md` 十大永久原则，新增 `BRAND_WHITELIST.md`、`BRAND_CLEANUP_REPORT.md`、`PHASE_4_REPORT.md`、`PHASE_5_PLAN.md`。
+
 ## [3.0.2] - 2026-11-26（Phase 03.6：本地离线预览 `dist-offline/` 与 Windows 一键预览工具）
 
 ### 新增

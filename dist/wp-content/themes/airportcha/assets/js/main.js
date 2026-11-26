@@ -170,3 +170,25 @@
     }
   });
 })();
+
+// Phase 4: Auto Table of Contents (TOC) for Review Pages
+(function () {
+  var body = document.getElementById('ac-review-body');
+  var tocNav = document.getElementById('ac-auto-toc');
+  var tocList = document.getElementById('ac-toc-list');
+  if (!body || !tocNav || !tocList) return;
+
+  var headings = body.querySelectorAll('h2');
+  if (headings.length < 2) return;
+
+  headings.forEach(function (h, idx) {
+    if (!h.id) h.id = 'sec-' + (idx + 1);
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+  tocNav.style.display = 'block';
+})();

@@ -1,7 +1,7 @@
 [
   {
     "title": "关于我们",
-    "excerpt": "关于 AIRPORTCHA AIRPORTCHA（airportcha.com）是一家面向全球中文用户的独立网络科技内容与机场服务评测平台。我们致力于通过透明的测试方法、持续更新的品牌目录以及通俗易懂的技术教程，帮助用户在复杂的网络服务市场中做出理性、可靠的选择。 我们的评测原则",
+    "excerpt": "关于 AIRPORTCHA AIRPORTCHA（airportcha.com）是一家面向全球中文用户的独立网络科技内容与多品牌机场评测平台。我们通过透明的品牌档案、客观的评测方法与实用技术教程，帮助用户理性选择网络服务。 我们的评测与商业披露原则 多品牌独立对比：仅收录经过核验",
     "url": "/about/",
     "type": "页面"
   },
@@ -25,7 +25,7 @@
   },
   {
     "title": "机场推荐",
-    "excerpt": "以下榜单由 AIRPORTCHA 编辑部结合近 30 天晚高峰测速、线路稳定性、AI 与流媒体解锁表现及性价比综合评选，所有数据均与后台品牌目录实时同步。 主流机场核心参数快速对比",
+    "excerpt": "本页由 AIRPORTCHA 编辑部持续维护，所有榜单、品牌卡片与套餐对比均实时同步自正式品牌白名单数据库。",
     "url": "/recommend/",
     "type": "页面"
   },
@@ -67,92 +67,86 @@
   },
   {
     "title": "速界",
-    "excerpt": "速界品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "excerpt": "速界正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
     "url": "/brands/speedworld/",
     "type": "品牌"
   },
   {
     "title": "边缘节点",
-    "excerpt": "边缘节点品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "excerpt": "边缘节点正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
     "url": "/brands/edgenova/",
     "type": "品牌"
   },
   {
     "title": "可信云",
-    "excerpt": "可信云品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "excerpt": "可信云正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
     "url": "/brands/kexinyun/",
     "type": "品牌"
   },
   {
     "title": "快狸",
-    "excerpt": "快狸品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "excerpt": "快狸正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
     "url": "/brands/kuaili/",
     "type": "品牌"
   },
   {
     "title": "极连云",
-    "excerpt": "极连云品牌档案与官方推广入口，支持在 WordPress 后台持续完善套餐与评测资料。",
+    "excerpt": "极连云正式品牌档案、核心特点与官方推广入口，支持在 WordPress 后台持续更新套餐与评测信息。",
     "url": "/brands/jilianyun/",
     "type": "品牌"
   },
   {
-    "title": "量子节点",
-    "excerpt": "量子节点侧重新兴协议实验与低延迟游戏加速线路。",
-    "url": "/brands/quantum-node/",
-    "type": "品牌"
-  },
-  {
-    "title": "蓝鲸专线",
-    "excerpt": "蓝鲸专线以按量不限时流量包为特色，非常适合作为备用机场使用。",
-    "url": "/brands/bluewhale-link/",
-    "type": "品牌"
-  },
-  {
-    "title": "极光网络",
-    "excerpt": "极光网络主打北美与欧洲商务线路，适合海外 SaaS 访问与跨国会议。",
-    "url": "/brands/aurora-net/",
-    "type": "品牌"
-  },
-  {
-    "title": "星云加速",
-    "excerpt": "星云加速定位均衡型中高端机场，兼顾公网中转与部分 IEPL 节点，价格亲民且流量配额充足。",
-    "url": "/brands/xingyun-cloud/",
-    "type": "品牌"
-  },
-  {
     "title": "光年梯",
-    "excerpt": "光年梯是当前综合表现突出的高端专线机场之一，主打全链路 IPLC/IEPL 跨境专线与 AI 生产力工具稳定解锁。",
+    "excerpt": "光年梯（GuangNianTi）是 AIRPORTCHA 当前核心主推品牌（PRIMARY），主打跨境办公、AI 工具适配与多平台稳定接入。",
     "url": "/brands/guangnianti/",
     "type": "品牌"
   },
   {
-    "title": "极光网络评测：欧美商务线路与跨国远程办公实测体验",
-    "excerpt": "深度体验极光网络的欧美节点质量，评估其在跨国视频会议、海外 SaaS 与代码仓库拉取中的稳定性。",
-    "url": "/reviews/aurora-net-review/",
+    "title": "速界（SpeedWorld）深度评测（2026）：高性价比日常接入与多设备选购指南",
+    "excerpt": "全面解读速界（SpeedWorld）的品牌定位、多设备日常使用体验、性价比评估逻辑与购买注意事项，帮助预算敏感型用户理性选型。",
+    "url": "/reviews/speedworld-review/",
     "type": "评测"
   },
   {
-    "title": "星云加速实测评测：高性价比中转机场能否满足日常 4K 与 AI 需求？",
-    "excerpt": "针对预算敏感型用户，我们实测了星云加速的日间与晚高峰带宽表现，看看它在 20 元档位是否物有所值。",
-    "url": "/reviews/xingyun-cloud-review/",
+    "title": "边缘节点（EdgeNova）深度评测（2026）：全球边缘路由定位与开发者选购指南",
+    "excerpt": "深入解析边缘节点（EdgeNova）的品牌定位、跨区域路由特点、多平台客户端兼容与开发者适用场景，提供客观透明的选型参考。",
+    "url": "/reviews/edgenova-review/",
     "type": "评测"
   },
   {
-    "title": "光年梯深度评测（2026）：晚高峰速度、IPLC 稳定性与 AI 解锁实测",
-    "excerpt": "我们对光年梯进行了为期 14 天的多时段测速与流媒体、ChatGPT/Claude 解锁实测，客观分析其真实表现与适用人群。",
+    "title": "可信云深度评测（2026）：稳定连接定位、多地区节点与选购指南",
+    "excerpt": "客观分析可信云（Kosing / KeXinYun）的品牌定位、多地区节点覆盖思路、客户端支持与选购建议，助力理性决策。",
+    "url": "/reviews/kexinyun-review/",
+    "type": "评测"
+  },
+  {
+    "title": "快狸深度评测（2026）：轻量易用体验、多平台适配与适用人群解析",
+    "excerpt": "深度梳理快狸（KuaiLi）的产品定位、客户端上手体验、日常使用场景与购买注意事项，助你快速判断快狸是否契合自身需求。",
+    "url": "/reviews/kuaili-review/",
+    "type": "评测"
+  },
+  {
+    "title": "极连云深度评测（2026）：多节点接入体验、协议兼容与选购建议",
+    "excerpt": "全面解析极连云（JiLianYun）的产品定位、客户端适配、适用人群与选购注意事项，帮助用户在多品牌白名单中做出理性比较。",
+    "url": "/reviews/jilianyun-review/",
+    "type": "评测"
+  },
+  {
+    "title": "光年梯深度评测（2026）：核心主推品牌定位、线路架构与选购全指南",
+    "excerpt": "面向跨境办公、AI 生产力工具与多平台用户的光年梯深度分析：从核心定位、协议兼容、套餐选择思路、优缺点到购买前核实清单，提供客观透明的决策参考。",
     "url": "/reviews/guangnianti-review/",
     "type": "评测"
   },
   {
-    "title": "2026 主流 IPLC 专线机场横向对比：光年梯、极光网络与量子节点",
-    "excerpt": "横向对比三款热门专线及前沿协议机场，帮你快速匹配最适合自己网络环境的方案。",
-    "url": "/comparisons/iplc-airports-comparison-2026/",
+    "title": "快狸、可信云、边缘节点与速界横向对比：按使用场景怎么选？",
+    "excerpt": "横向对比白名单中四款各具特色的合作品牌，帮你按轻度易用、稳定连接、技术开发与高性价比快速匹配。",
+    "url": "/comparisons/kuaili-kexinyun-edgenova-speedworld-comparison/",
     "type": "对比"
   },
   {
-    "title": "光年梯 vs 星云加速：专线稳健派与高性价比中转如何选？",
-    "excerpt": "从线路架构、晚高峰速度、AI 解锁、价格与适用人群五个维度，全面对比光年梯与星云加速。",
-    "url": "/comparisons/guangnianti-vs-xingyun/",
+    "title": "光年梯 vs 极连云：核心主推与均衡重点合作品牌如何选？",
+    "excerpt": "从产品定位、协议生态、适用人群与主备搭配思路，客观对比光年梯与极连云两大白名单品牌。",
+    "url": "/comparisons/guangnianti-vs-jilianyun/",
     "type": "对比"
   }
 ]
