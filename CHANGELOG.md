@@ -1,5 +1,14 @@
 # 变更日志（CHANGELOG）
 
+## [6.5.0] - 2026-11-26（Phase 06.5：IndexNow 正式首次提交、自动差异化索引与生产环境 SEO 验收）
+
+### 新增与完成
+- 生成持久化 IndexNow 公开验证密钥（`config/indexnow-key.txt`）并自动导出至 `dist/a8f4c2e91b7d40639e5a2c8f1d6b3e07.txt`。
+- 完成首次真实 IndexNow API 提交（32 个正式规范 URL，真实响应 `HTTP 202 Accepted`），并持久化状态至 `config/indexnow-state.json`。
+- 升级 `.github/workflows/validate-and-deploy.yml` 实现推送 `main` 后自动差异化提交 IndexNow。
+- 完成 `https://airportcha.com/` 正式生产环境与 6 大品牌线上 `/go/{slug}/` 跳转全量验收。
+- 新增 `PHASE_6_5_REPORT.md`、`INDEXNOW_SUBMISSION_LOG.md`。
+
 ## [6.0.0] - 2026-11-26（Phase 06：6 大品牌评测 ≥ 2000 字达标、3 大一级核心专题与全站零死链）
 
 ### 新增与修复
