@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T15:57:06.336Z",
+  "generatedAt": "2026-11-28T12:48:14.174Z",
   "count": 32,
   "urls": [
     {
@@ -18,7 +18,7 @@
       "description": "聚焦全球网络科技趋势、跨境办公效率工具与行业动态。",
       "h1": "博客",
       "canonical": "https://airportcha.com/blog/",
-      "bytes": 23604
+      "bytes": 23895
     },
     {
       "url": "https://airportcha.com/brands/edgenova/",
@@ -86,11 +86,11 @@
     {
       "url": "https://airportcha.com/clash-verge-rev-setup-guide/",
       "path": "/clash-verge-rev-setup-guide/",
-      "title": "Clash Verge Rev 新手完全配置教程（Windows / macOS） &#8211; AIRPORTCHA",
-      "description": "手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。",
-      "h1": "Clash Verge Rev 新手完全配置教程（Windows / macOS）",
+      "title": "Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路） &#8211; AIRPORTCHA",
+      "description": "2026 年桌面端最好用的开源代理客户端非 Clash Verge Rev 莫属。这篇 5000 字保姆级手册手把手带你搞定安装、导入订阅、规则模式、TUN 虚拟网卡、AI 分流以及 90% 新手常见报错排查。",
+      "h1": "Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路）",
       "canonical": "https://airportcha.com/clash-verge-rev-setup-guide/",
-      "bytes": 24609
+      "bytes": 39930
     },
     {
       "url": "https://airportcha.com/comparisons/guangnianti-vs-jilianyun/",
@@ -126,16 +126,16 @@
       "description": "覆盖 Windows、macOS、iOS、Android 与路由器的客户端安装与分流规则实战教程。",
       "h1": "使用教程",
       "canonical": "https://airportcha.com/guides/",
-      "bytes": 23641
+      "bytes": 23941
     },
     {
       "url": "https://airportcha.com/how-to-choose-reliable-airport-2026/",
       "path": "/how-to-choose-reliable-airport-2026/",
-      "title": "2026 年如何挑选靠谱的机场服务？五大核心指标全解析 &#8211; AIRPORTCHA",
-      "description": "从线路类型、协议生态、晚高峰实测到隐私与付费策略，一文掌握判断机场服务质量的核心方法。",
-      "h1": "2026 年如何挑选靠谱的机场服务？五大核心指标全解析",
+      "title": "2026 年如何挑选靠谱的机场服务？老用户血泪避坑与真实算账全指南 &#8211; AIRPORTCHA",
+      "description": "买机场最怕花钱买罪受：晚高峰卡成 PPT、刚买年付就跑路、流量虚标看不懂。这篇 5000 字大白话指南把线路、协议、计费陷阱、晚高峰自测和 6 家白名单机场真实算账一次讲透。",
+      "h1": "2026 年如何挑选靠谱的机场服务？老用户血泪避坑与真实算账全指南",
       "canonical": "https://airportcha.com/how-to-choose-reliable-airport-2026/",
-      "bytes": 24801
+      "bytes": 45654
     },
     {
       "url": "https://airportcha.com/",
@@ -144,16 +144,16 @@
       "description": "欢迎来到 AIRPORTCHA —— 独立网络科技资讯与多品牌机场评测平台。",
       "h1": "以透明实测与多品牌对比，做好每一次机场推荐与网络服务选择",
       "canonical": "https://airportcha.com/",
-      "bytes": 57711
+      "bytes": 58491
     },
     {
       "url": "https://airportcha.com/iplc-iepl-vs-transit-explained/",
       "path": "/iplc-iepl-vs-transit-explained/",
-      "title": "IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理 &#8211; AIRPORTCHA",
-      "description": "深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。",
-      "h1": "IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理",
+      "title": "IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普） &#8211; AIRPORTCHA",
+      "description": "买机场天天看到 IPLC、IEPL、BGP 中转、公网直连这些缩写，到底有什么区别？是不是非得买专线不可？这篇大白话科普帮你把底层原理和省钱逻辑一次讲明白。",
+      "h1": "IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普）",
       "canonical": "https://airportcha.com/iplc-iepl-vs-transit-explained/",
-      "bytes": 24689
+      "bytes": 35934
     },
     {
       "url": "https://airportcha.com/knowledge/",
@@ -162,7 +162,7 @@
       "description": "系统讲解 Trojan、VLESS、Hysteria2、IPLC/IEPL 专线及 DNS 防泄漏等网络基础知识。",
       "h1": "网络知识",
       "canonical": "https://airportcha.com/knowledge/",
-      "bytes": 23733
+      "bytes": 23922
     },
     {
       "url": "https://airportcha.com/pricing/",
@@ -185,11 +185,11 @@
     {
       "url": "https://airportcha.com/remote-work-network-optimization-guide/",
       "path": "/remote-work-network-optimization-guide/",
-      "title": "跨境远程办公网络优化指南：降低延迟与丢包的实用方案 &#8211; AIRPORTCHA",
-      "description": "面向海外协同办公、GitHub 与 AI 编程工具用户，分享稳定高效的网络分流与多节点容灾思路。",
-      "h1": "跨境远程办公网络优化指南：降低延迟与丢包的实用方案",
+      "title": "跨境远程办公与开发者网络优化指南：告别卡顿、SSH 断连与 AI 报错的实战方案 &#8211; AIRPORTCHA",
+      "description": "写代码 Git 推送超时、SSH 连海外服务器隔几分钟就断、Cursor/ChatGPT 动不动报错？这篇 5000 字实战指南从客户端 TUN 模式、终端代理、国内源直连到主备双机场容灾，帮你把办公网络调教得稳如磐石。",
+      "h1": "跨境远程办公与开发者网络优化指南：告别卡顿、SSH 断连与 AI 报错的实战方案",
       "canonical": "https://airportcha.com/remote-work-network-optimization-guide/",
-      "bytes": 24705
+      "bytes": 37766
     },
     {
       "url": "https://airportcha.com/reviews/edgenova-review/",
@@ -257,11 +257,11 @@
     {
       "url": "https://airportcha.com/shadowrocket-ios-rules-guide/",
       "path": "/shadowrocket-ios-rules-guide/",
-      "title": "iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程 &#8211; AIRPORTCHA",
-      "description": "详解 Shadowrocket 订阅自动更新、按地区自动选优与流媒体/AI 专属分流配置技巧。",
-      "h1": "iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程",
+      "title": "iOS Shadowrocket（小火箭）分流规则、延迟测速与防断流完全攻略（2026） &#8211; AIRPORTCHA",
+      "description": "苹果手机装好小火箭却老是断网、耗电飞快、国内 App 变慢？这篇大白话实战攻略手把手教你调教全局路由、按需连接、自动测速与流媒体/AI 分流，一次配好省心一整年。",
+      "h1": "iOS Shadowrocket（小火箭）分流规则、延迟测速与防断流完全攻略（2026）",
       "canonical": "https://airportcha.com/shadowrocket-ios-rules-guide/",
-      "bytes": 24579
+      "bytes": 38222
     },
     {
       "url": "https://airportcha.com/stable-airports/",
@@ -275,11 +275,11 @@
     {
       "url": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
       "path": "/trojan-vless-hysteria2-comparison/",
-      "title": "Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？ &#8211; AIRPORTCHA",
-      "description": "对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。",
-      "h1": "Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？",
+      "title": "Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南 &#8211; AIRPORTCHA",
+      "description": "机场节点列表里经常看到 Trojan、VLESS、Shadowsocks、Hysteria2，到底选哪个更快更稳？这篇大白话指南不讲晦涩加密算法，只告诉你日常不同网络环境下该怎么挑。",
+      "h1": "Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南",
       "canonical": "https://airportcha.com/trojan-vless-hysteria2-comparison/",
-      "bytes": 24685
+      "bytes": 36054
     },
     {
       "url": "https://airportcha.com/value-airports/",

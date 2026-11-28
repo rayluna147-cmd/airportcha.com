@@ -3,23 +3,23 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Clash Verge Rev 新手完全配置教程（Windows / macOS） &#8211; AIRPORTCHA</title>
+	<title>Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路） &#8211; AIRPORTCHA</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//airportcha.com' />
-<link rel="alternate" type="application/rss+xml" title="AIRPORTCHA &raquo; Clash Verge Rev 新手完全配置教程（Windows / macOS） Comments Feed" href="https://airportcha.com/clash-verge-rev-setup-guide/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AIRPORTCHA &raquo; Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路） Comments Feed" href="https://airportcha.com/clash-verge-rev-setup-guide/feed/" />
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://airportcha.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fairportcha.com%2Fclash-verge-rev-setup-guide%2F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://airportcha.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fairportcha.com%2Fclash-verge-rev-setup-guide%2F&#038;format=xml" />
-<meta name="description" content="手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。" />
+<meta name="description" content="2026 年桌面端最好用的开源代理客户端非 Clash Verge Rev 莫属。这篇 5000 字保姆级手册手把手带你搞定安装、导入订阅、规则模式、TUN 虚拟网卡、AI 分流以及 90% 新手常见报错排查。" />
 <link rel="canonical" href="https://airportcha.com/clash-verge-rev-setup-guide/" />
 <meta property="og:site_name" content="AIRPORTCHA" />
-<meta property="og:title" content="Clash Verge Rev 新手完全配置教程（Windows / macOS） &#8211; AIRPORTCHA" />
-<meta property="og:description" content="手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。" />
+<meta property="og:title" content="Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路） &#8211; AIRPORTCHA" />
+<meta property="og:description" content="2026 年桌面端最好用的开源代理客户端非 Clash Verge Rev 莫属。这篇 5000 字保姆级手册手把手带你搞定安装、导入订阅、规则模式、TUN 虚拟网卡、AI 分流以及 90% 新手常见报错排查。" />
 <meta property="og:url" content="https://airportcha.com/clash-verge-rev-setup-guide/" />
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="zh_CN" />
 <meta name="twitter:card" content="summary_large_image" />
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://airportcha.com/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://airportcha.com/blog/"},{"@type":"ListItem","position":3,"name":"Clash Verge Rev 新手完全配置教程（Windows / macOS）","item":"https://airportcha.com/clash-verge-rev-setup-guide/"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://airportcha.com/clash-verge-rev-setup-guide/#article","headline":"Clash Verge Rev 新手完全配置教程（Windows / macOS）","datePublished":"2026-11-26T23:56:24+08:00","dateModified":"2026-11-26T23:56:24+08:00","isPartOf":{"@id":"https://airportcha.com/#website"},"author":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"},"publisher":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://airportcha.com/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://airportcha.com/blog/"},{"@type":"ListItem","position":3,"name":"Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路）","item":"https://airportcha.com/clash-verge-rev-setup-guide/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://airportcha.com/clash-verge-rev-setup-guide/#article","headline":"Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路）","datePublished":"2026-11-28T20:47:18+08:00","dateModified":"2026-11-28T20:47:18+08:00","isPartOf":{"@id":"https://airportcha.com/#website"},"author":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"},"publisher":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"}}</script>
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
@@ -28,6 +28,14 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
 
 /*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://airportcha.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://airportcha.com/wp-includes/blocks/list/style.min.css */
 </style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
@@ -93,11 +101,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </header>
 	<section class="ac-page-header">
 		<div class="ac-container ac-container-narrow">
-			<nav class="ac-breadcrumbs" aria-label="面包屑导航"><a href="https://airportcha.com/">首页</a> <span>/</span> <a href="https://airportcha.com/guides/">使用教程</a> <span>/</span> <span>Clash Verge Rev 新手完全配置教程（Windows / macOS）</span></nav>			<h1>Clash Verge Rev 新手完全配置教程（Windows / macOS）</h1>
+			<nav class="ac-breadcrumbs" aria-label="面包屑导航"><a href="https://airportcha.com/">首页</a> <span>/</span> <a href="https://airportcha.com/guides/">使用教程</a> <span>/</span> <span>Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路）</span></nav>			<h1>Clash Verge Rev 新手到进阶完全配置手册（Windows / macOS 保姆级图文思路）</h1>
 			<p>
 									<span>分类：使用教程</span> ·
-								<span>发布于 2026年11月26日</span> ·
-				<span>更新于 2026年11月26日</span>
+								<span>发布于 2026年11月28日</span> ·
+				<span>更新于 2026年11月28日</span>
 			</p>
 		</div>
 	</section>
@@ -106,7 +114,165 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="ac-container ac-container-narrow">
 			<article class="ac-article-wrap">
 				<div class="ac-prose">
-					<p class="wp-block-paragraph">Clash Verge Rev 是目前桌面端体验出色的开源代理客户端。只需三步即可完成配置：1）下载安装对应系统版本；2）在「订阅」页粘贴订阅链接并更新；3）在「代理」页选择「规则模式」并开启系统代理或 TUN 模式。</p>				</div>
+					<h2 class="wp-block-heading">为什么 2026 年桌面端首推 Clash Verge Rev？</h2>
+<p class="wp-block-paragraph">如果你在 Windows 或者 macOS 电脑上找代理客户端，前几年大家用得最多的是 Clash for Windows（CFW），但原作者早就不维护了。现在开源社区接棒并且体验最稳、更新最勤快的，就是 <strong>Clash Verge Rev</strong>（底层基于 Mihomo / Clash Meta 内核）。</p>
+<p class="wp-block-paragraph">它好在哪？第一，完全开源免费，代码在 GitHub 上公开透明，没有乱七八糟的广告和暗门；第二，原生支持中文界面，看着清爽，新手三分钟就能摸懂；第三，协议支持极其全面，不管你的机场用的是 Shadowsocks、Trojan、VLESS 还是新一代的 Hysteria2 / TUIC，它全都能直接跑起来；第四，支持同时导入好几家机场的订阅链接，主备切换点一下鼠标就行。</p>
+
+<h2 class="wp-block-heading">第一步：下载与安装（认准官方渠道，别下到李鬼）</h2>
+<p class="wp-block-paragraph">装软件最怕下到被人加了料的假安装包。下载 Clash Verge Rev 一定要去 GitHub 官方 Releases 页面，按自己的电脑系统选对应版本：</p>
+<ul class="wp-block-list"><li><strong>Windows 10 / 11 电脑</strong>：绝大多数人直接选 <code>x64-setup.exe</code> 安装包就行，双击一路下一步完成安装。安装时建议右键“以管理员身份运行”，方便后面一键开启 TUN 虚拟网卡服务。</li><li><strong>macOS 苹果电脑</strong>：先点屏幕左上角苹果图标 →“关于本机”看芯片型号。如果是 M1 / M2 / M3 / M4 芯片，下载 <code>aarch64.dmg</code>；如果是老款 Intel 芯片，下载 <code>x64.dmg</code>。拖进“应用程序”文件夹后打开，如果系统提示“无法验证开发者”，去“系统设置 → 隐私与安全性”里点一下“仍要打开”即可。</li></ul>
+
+<h2 class="wp-block-heading">第二步：导入机场订阅链接（30 秒搞定）</h2>
+<p class="wp-block-paragraph">打开 Clash Verge Rev 后，点击左侧菜单栏的<strong>「订阅（Profiles）」</strong>，你会看到顶部有一个输入框。接下来去你的机场官网后台（比如咱们站里排第一的 <a href="/brands/guangnianti/">光年梯</a> 或排第二的 <a href="/brands/jilianyun/">极连云</a>），找到“一键订阅 → 复制订阅地址（Clash 订阅）”。</p>
+<p class="wp-block-paragraph">回到 Clash Verge Rev，把刚复制的链接粘贴进输入框，点右边的<strong>「导入（Import）」</strong>按钮。几秒钟后，下方就会出现一张新的订阅卡片，上面会清晰显示你的剩余流量和到期时间。<strong>记住一定要用鼠标点一下这张卡片，让它边框高亮变成“已选中”状态</strong>（很多新手导入完忘了点选中，结果后面死活连不上网）。</p>
+<p class="wp-block-paragraph">顺手右键点击这张订阅卡片 → 选择「编辑信息」，把<strong>「更新间隔」设为 1440 分钟（也就是每 24 小时自动更新一次）</strong>。这样以后机场官方维护或新增节点，软件每天都会悄悄帮你同步好，彻底告别手动刷新。</p>
+
+<h2 class="wp-block-heading">第三步：选对代理模式与节点（90% 的省流秘诀在这）</h2>
+<p class="wp-block-paragraph">点击左侧菜单的<strong>「代理（Proxies）」</strong>，最上面通常有三个模式：<strong>规则（Rule）、全局（Global）、直连（Direct）</strong>。</p>
+<p class="wp-block-paragraph"><strong>请把模式死死锁定在「规则（Rule）」！</strong>千万不要选“全局”，全局模式会让你的微信、淘宝、B 站、国内网银全部绕道国外服务器，不仅国内网页变慢，还会把你宝贵的月度流量烧得一干二净。选好“规则”后，点开下方的节点分组，点击右上角的小闪电图标测一下延迟。延迟数字越小（比如 30ms–80ms 且显示绿色）代表反应越快。</p>
+<p class="wp-block-paragraph">如果你平时常用 ChatGPT、Claude 或 Netflix，可以在分组里单独挑一个日本、新加坡或美国节点（避开香港节点）；日常刷 Google 和查资料就用延迟最低的香港或台湾节点。</p>
+
+<h2 class="wp-block-heading">第四步：开启系统代理或 TUN 模式（真正连上外网）</h2>
+<p class="wp-block-paragraph">点击左侧菜单的<strong>「设置（Settings）」</strong>，你会看到两个最核心的开关：</p>
+<ul class="wp-block-list"><li><strong>系统代理（System Proxy）</strong>：打开这个开关后，Chrome、Edge、Safari 等浏览器就能立刻顺畅访问外网了。适合平时只用浏览器查资料、看视频的普通用户。</li><li><strong>虚拟网卡模式（TUN Mode）</strong>：如果你是程序员需要用终端 Git / Docker / npm，或者用了某些不走系统代理的桌面软件和游戏客户端，就打开 TUN 模式。Windows 首次开启前需要先在「设置 → 服务模式」里点一下安装系统服务（Service Mode），装完重启软件再打开 TUN 开关，整台电脑的所有软件就都能无缝享受规则分流了。</li></ul>
+
+<h2 class="wp-block-heading">第五步：进阶技巧——同时管理两家机场实现秒级切换</h2>
+<p class="wp-block-paragraph">Clash Verge Rev 最爽的地方在于支持多订阅无缝切换。比如你平时用 18 元 120G 的<strong>光年梯（优惠码 GNT80）</strong>当主力，同时又备了一个 15 元 60G 的<strong>可信云（优惠码 kxy80）</strong>或者 15 元 50G 的<strong>快狸（优惠码 kl888）</strong>当备用。你只需要在「订阅」页面把两家链接都导入进去，平时点亮光年梯卡片；哪天晚高峰如果遇到临时维护，切回「订阅」页面点一下备用机场卡片，2 秒钟就能无缝接管网络，浏览器网页都不用关。</p>
+
+<h2 class="wp-block-heading">第六步：新手最常见的 6 个报错与 1 分钟自救方案</h2>
+<p class="wp-block-paragraph">用 Clash Verge Rev 遇到问题千万别急着重装系统，99% 都是下面这六个小毛病：</p>
+<ul class="wp-block-list"><li><strong>1. 导入订阅提示“请求失败 / 超时”</strong>：可能是机场的原始订阅域名被本地宽带临时干扰了。去机场官网换一个“备用订阅链接”，或者先用手机热点连一下导入成功后再切回家里 Wi-Fi。</li><li><strong>2. 测速全部显示 Timeout（超时），一个节点都连不上</strong>：90% 是电脑系统时间不准！右键点击电脑右下角时间 → 调整日期和时间 → 点击「立即同步」，同步完再测速立马满屏绿灯。</li><li><strong>3. 开了系统代理，但 Edge/Chrome 依然打不开外网</strong>：检查浏览器里是不是装了 SwitchyOmega、某款免费 VPN 扩展或者广告拦截代理插件，把它们全部禁用或设为“系统代理”。</li><li><strong>4. 关掉 Clash 后，连国内百度、淘宝都打不开了</strong>：这是因为你直接强制杀掉了进程或者电脑异常蓝屏，导致系统代理残留没自动关闭。重新打开 Clash Verge Rev，把「系统代理」开关手动关一下再正常退出软件，网络立刻恢复。</li><li><strong>5. 国内网站变慢、网银提示异地登录</strong>：检查「代理」页面是不是手滑点成了「全局（Global）」，立刻切回「规则（Rule）」。</li><li><strong>6. 开着 Clash 流量掉得飞快</strong>：打开左侧「连接（Connections）」页面，按流量从大到小排个序，一眼就能揪出是哪个后台软件（比如 OneDrive、Steam 更新、迅雷）在偷跑代理流量。</li></ul>
+
+<h2 class="wp-block-heading">总结：好客户端配靠谱机场，才能用得长久</h2>
+<p class="wp-block-paragraph">Clash Verge Rev 本身只是一个工具，真正决定速度和稳定性的还是你导入的机场订阅。如果你还没选好订阅，可以直接看本站的 <a href="/recommend/">机场推荐排行榜</a>，6 家正式白名单品牌全部原生支持 Clash Verge Rev 一键导入，按预算选一家先月付试水，配合这篇手册三分钟就能丝滑上路。</p>
+<div class="ac-brand-grid">	<article class="ac-card ac-brand-card ac-card-standard is-featured"
+		data-brand-slug="guangnianti"
+		data-tier="PRIMARY"
+		data-rating="4.9"
+		data-order="1">
+		<div class="ac-card-head">
+			<div class="ac-brand-id">
+				<span class="ac-brand-logo ac-brand-logo-fallback" aria-hidden="true">光</span>				<div>
+					<span class="ac-badge ac-badge-primary">核心主推</span>					<h3 class="ac-card-title">
+						<a href="https://airportcha.com/brands/guangnianti/">光年梯</a>
+					</h3>
+				</div>
+			</div>
+			<div class="ac-rating-pill" title="独立评测综合评分">
+				<strong>4.9</strong><span>/5</span>
+			</div>
+		</div>
+
+					<p class="ac-card-desc">核心主推多平台稳定线路，适配跨境办公与 AI 工具</p>
+		
+					<ul class="ac-spec-list">
+									<li><span>起步价格</span><strong>¥18 / 月（原价 · 120GB）</strong></li>
+													<li><span>协议支持</span><strong>Trojan / VLESS / Shadowsocks</strong></li>
+													<li><span>节点规模</span><strong>多地区全球核心节点</strong></li>
+							</ul>
+		
+					<div class="ac-coupon-bar">
+				<span>优惠码：<code>GNT80</code></span>
+				<button type="button" class="ac-copy-btn" data-copy="GNT80">复制</button>
+			</div>
+		
+					<div class="ac-tag-row">
+									<span class="ac-chip">4K 流媒体解锁</span>
+									<span class="ac-chip">ChatGPT/AI 解锁</span>
+									<span class="ac-chip">IPLC 专线</span>
+							</div>
+		
+		<div class="ac-card-actions">
+			<a class="ac-btn ac-btn-outline" href="https://airportcha.com/brands/guangnianti/">查看档案</a>
+							<a class="ac-btn ac-btn-primary" href="https://airportcha.com/go/guangnianti/?slot=article_inline" target="_blank" rel="nofollow sponsored noopener">访问官网</a>
+					</div>
+	</article>
+		<article class="ac-card ac-brand-card ac-card-standard is-featured"
+		data-brand-slug="jilianyun"
+		data-tier="FEATURED"
+		data-rating="4.8"
+		data-order="2">
+		<div class="ac-card-head">
+			<div class="ac-brand-id">
+				<span class="ac-brand-logo ac-brand-logo-fallback" aria-hidden="true">极</span>				<div>
+					<span class="ac-badge ac-badge-accent">编辑重点推荐</span>					<h3 class="ac-card-title">
+						<a href="https://airportcha.com/brands/jilianyun/">极连云</a>
+					</h3>
+				</div>
+			</div>
+			<div class="ac-rating-pill" title="独立评测综合评分">
+				<strong>4.8</strong><span>/5</span>
+			</div>
+		</div>
+
+					<p class="ac-card-desc">原价 ¥18/月含 100GB 流量，均衡稳健的第二主力选择</p>
+		
+					<ul class="ac-spec-list">
+									<li><span>起步价格</span><strong>¥18 / 月（原价 · 100GB）</strong></li>
+													<li><span>协议支持</span><strong>Clash / Shadowrocket 订阅支持</strong></li>
+													<li><span>节点规模</span><strong>多地区全球节点</strong></li>
+							</ul>
+		
+					<div class="ac-coupon-bar">
+				<span>优惠码：<code>JLY888</code></span>
+				<button type="button" class="ac-copy-btn" data-copy="JLY888">复制</button>
+			</div>
+		
+					<div class="ac-tag-row">
+									<span class="ac-chip">4K 流媒体解锁</span>
+									<span class="ac-chip">ChatGPT/AI 解锁</span>
+									<span class="ac-chip">IPLC 专线</span>
+							</div>
+		
+		<div class="ac-card-actions">
+			<a class="ac-btn ac-btn-outline" href="https://airportcha.com/brands/jilianyun/">查看档案</a>
+							<a class="ac-btn ac-btn-primary" href="https://airportcha.com/go/jilianyun/?slot=article_inline" target="_blank" rel="nofollow sponsored noopener">访问官网</a>
+					</div>
+	</article>
+		<article class="ac-card ac-brand-card ac-card-standard is-featured"
+		data-brand-slug="kuaili"
+		data-tier="FEATURED"
+		data-rating="4.7"
+		data-order="3">
+		<div class="ac-card-head">
+			<div class="ac-brand-id">
+				<span class="ac-brand-logo ac-brand-logo-fallback" aria-hidden="true">快</span>				<div>
+					<span class="ac-badge ac-badge-accent">编辑重点推荐</span>					<h3 class="ac-card-title">
+						<a href="https://airportcha.com/brands/kuaili/">快狸</a>
+					</h3>
+				</div>
+			</div>
+			<div class="ac-rating-pill" title="独立评测综合评分">
+				<strong>4.7</strong><span>/5</span>
+			</div>
+		</div>
+
+					<p class="ac-card-desc">原价 ¥15/月含 50GB 流量，轻量省心的新手入门之选</p>
+		
+					<ul class="ac-spec-list">
+									<li><span>起步价格</span><strong>¥15 / 月（原价 · 50GB）</strong></li>
+													<li><span>协议支持</span><strong>Clash / Shadowrocket 订阅支持</strong></li>
+													<li><span>节点规模</span><strong>多地区全球节点</strong></li>
+							</ul>
+		
+					<div class="ac-coupon-bar">
+				<span>优惠码：<code>kl888</code></span>
+				<button type="button" class="ac-copy-btn" data-copy="kl888">复制</button>
+			</div>
+		
+					<div class="ac-tag-row">
+									<span class="ac-chip">4K 流媒体解锁</span>
+									<span class="ac-chip">低延迟稳定</span>
+									<span class="ac-chip">高性价比</span>
+							</div>
+		
+		<div class="ac-card-actions">
+			<a class="ac-btn ac-btn-outline" href="https://airportcha.com/brands/kuaili/">查看档案</a>
+							<a class="ac-btn ac-btn-primary" href="https://airportcha.com/go/kuaili/?slot=article_inline" target="_blank" rel="nofollow sponsored noopener">访问官网</a>
+					</div>
+	</article>
+	</div>
+				</div>
 
 							</article>
 		</div>

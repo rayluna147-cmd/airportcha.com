@@ -375,51 +375,14 @@ class Airportcha_Seeder {
 			)
 		);
 
-		// 7. 保留 6 篇非品牌类通用知识、博客与客户端教程
-		$posts = array(
-			array(
-				'title'   => '2026 年如何挑选靠谱的机场服务？五大核心指标全解析',
-				'slug'    => 'how-to-choose-reliable-airport-2026',
-				'cat'     => $cat_blog,
-				'excerpt' => '从线路类型、协议生态、晚高峰实测到隐私与付费策略，一文掌握判断机场服务质量的核心方法。',
-				'content' => '<!-- wp:paragraph --><p>面对市面上琳琅满目的网络加速服务，真正决定日常体验的，是线路架构、晚高峰冗余容量以及客户端生态兼容性。建议新用户首次购买优先选择月付套餐，亲自在自己的宽带与移动网络下完成一周晚高峰测试，再决定是否长期续费。</p><!-- /wp:paragraph -->',
-			),
-			array(
-				'title'   => '跨境远程办公网络优化指南：降低延迟与丢包的实用方案',
-				'slug'    => 'remote-work-network-optimization-guide',
-				'cat'     => $cat_blog,
-				'excerpt' => '面向海外协同办公、GitHub 与 AI 编程工具用户，分享稳定高效的网络分流与多节点容灾思路。',
-				'content' => '<!-- wp:paragraph --><p>对于每天依赖海外云服务、代码仓库与 AI 助手的开发者而言，合理配置规则分流并准备一条备用线路，是最具性价比的稳定性保障。</p><!-- /wp:paragraph -->',
-			),
-			array(
-				'title'   => 'Clash Verge Rev 新手完全配置教程（Windows / macOS）',
-				'slug'    => 'clash-verge-rev-setup-guide',
-				'cat'     => $cat_guides,
-				'excerpt' => '手把手教你安装 Clash Verge Rev、导入机场订阅链接、开启 TUN 模式并配置规则分流。',
-				'content' => '<!-- wp:paragraph --><p>Clash Verge Rev 是目前桌面端体验出色的开源代理客户端。只需三步即可完成配置：1）下载安装对应系统版本；2）在「订阅」页粘贴订阅链接并更新；3）在「代理」页选择「规则模式」并开启系统代理或 TUN 模式。</p><!-- /wp:paragraph -->',
-			),
-			array(
-				'title'   => 'iOS Shadowrocket（小火箭）分流规则与延迟测速设置教程',
-				'slug'    => 'shadowrocket-ios-rules-guide',
-				'cat'     => $cat_guides,
-				'excerpt' => '详解 Shadowrocket 订阅自动更新、按地区自动选优与流媒体/AI 专属分流配置技巧。',
-				'content' => '<!-- wp:paragraph --><p>在 iPhone 与 iPad 上，建议开启「按需连接」与「自动测速（URL Test）」，并在全局路由中选择「配置（Config）」，保证国内应用直连不绕路。</p><!-- /wp:paragraph -->',
-			),
-			array(
-				'title'   => 'IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理',
-				'slug'    => 'iplc-iepl-vs-transit-explained',
-				'cat'     => $cat_knowledge,
-				'excerpt' => '深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。',
-				'content' => '<!-- wp:paragraph --><p><strong>IPLC / IEPL</strong> 属于运营商级点对点跨境内网专线，晚高峰延迟低但带宽成本高；<strong>公网中转</strong>性价比高，但在高峰期更容易受国际出口波动影响。</p><!-- /wp:paragraph -->',
-			),
-			array(
-				'title'   => 'Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？',
-				'slug'    => 'trojan-vless-hysteria2-comparison',
-				'cat'     => $cat_knowledge,
-				'excerpt' => '对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。',
-				'content' => '<!-- wp:paragraph --><p><strong>Trojan / VLESS</strong> 基于 TCP + TLS，在专线环境下稳定；<strong>Hysteria2</strong> 基于 UDP/QUIC，抗丢包能力强，适合弱网或公网环境。</p><!-- /wp:paragraph -->',
-			),
-		);
+		// 7. 导入 6 篇深度去 AI 化关键词长文（博客、使用教程、网络知识）
+		$posts = array();
+		if ( function_exists( 'airportcha_get_keyword_articles_part1' ) ) {
+			$posts = array_merge( $posts, airportcha_get_keyword_articles_part1( $cat_blog, $cat_guides ) );
+		}
+		if ( function_exists( 'airportcha_get_keyword_articles_part2' ) ) {
+			$posts = array_merge( $posts, airportcha_get_keyword_articles_part2( $cat_guides, $cat_knowledge ) );
+		}
 
 		foreach ( $posts as $p ) {
 			self::ensure_cpt(

@@ -3,23 +3,23 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理 &#8211; AIRPORTCHA</title>
+	<title>IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普） &#8211; AIRPORTCHA</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//airportcha.com' />
-<link rel="alternate" type="application/rss+xml" title="AIRPORTCHA &raquo; IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理 Comments Feed" href="https://airportcha.com/iplc-iepl-vs-transit-explained/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AIRPORTCHA &raquo; IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普） Comments Feed" href="https://airportcha.com/iplc-iepl-vs-transit-explained/feed/" />
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://airportcha.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fairportcha.com%2Fiplc-iepl-vs-transit-explained%2F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://airportcha.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fairportcha.com%2Fiplc-iepl-vs-transit-explained%2F&#038;format=xml" />
-<meta name="description" content="深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。" />
+<meta name="description" content="买机场天天看到 IPLC、IEPL、BGP 中转、公网直连这些缩写，到底有什么区别？是不是非得买专线不可？这篇大白话科普帮你把底层原理和省钱逻辑一次讲明白。" />
 <link rel="canonical" href="https://airportcha.com/iplc-iepl-vs-transit-explained/" />
 <meta property="og:site_name" content="AIRPORTCHA" />
-<meta property="og:title" content="IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理 &#8211; AIRPORTCHA" />
-<meta property="og:description" content="深入浅出解析国际私用出租线路（IPLC）、以太网专线（IEPL）与普通 BGP 中转的本质差异。" />
+<meta property="og:title" content="IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普） &#8211; AIRPORTCHA" />
+<meta property="og:description" content="买机场天天看到 IPLC、IEPL、BGP 中转、公网直连这些缩写，到底有什么区别？是不是非得买专线不可？这篇大白话科普帮你把底层原理和省钱逻辑一次讲明白。" />
 <meta property="og:url" content="https://airportcha.com/iplc-iepl-vs-transit-explained/" />
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="zh_CN" />
 <meta name="twitter:card" content="summary_large_image" />
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://airportcha.com/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://airportcha.com/blog/"},{"@type":"ListItem","position":3,"name":"IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理","item":"https://airportcha.com/iplc-iepl-vs-transit-explained/"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://airportcha.com/iplc-iepl-vs-transit-explained/#article","headline":"IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理","datePublished":"2026-11-26T23:56:24+08:00","dateModified":"2026-11-26T23:56:24+08:00","isPartOf":{"@id":"https://airportcha.com/#website"},"author":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"},"publisher":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://airportcha.com/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://airportcha.com/blog/"},{"@type":"ListItem","position":3,"name":"IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普）","item":"https://airportcha.com/iplc-iepl-vs-transit-explained/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://airportcha.com/iplc-iepl-vs-transit-explained/#article","headline":"IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普）","datePublished":"2026-11-28T20:47:18+08:00","dateModified":"2026-11-28T20:47:18+08:00","isPartOf":{"@id":"https://airportcha.com/#website"},"author":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"},"publisher":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"}}</script>
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
@@ -28,6 +28,14 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
 
 /*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://airportcha.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://airportcha.com/wp-includes/blocks/list/style.min.css */
 </style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
@@ -93,11 +101,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </header>
 	<section class="ac-page-header">
 		<div class="ac-container ac-container-narrow">
-			<nav class="ac-breadcrumbs" aria-label="面包屑导航"><a href="https://airportcha.com/">首页</a> <span>/</span> <a href="https://airportcha.com/knowledge/">网络知识</a> <span>/</span> <span>IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理</span></nav>			<h1>IPLC、IEPL 与公网中转有什么区别？一文读懂机场线路原理</h1>
+			<nav class="ac-breadcrumbs" aria-label="面包屑导航"><a href="https://airportcha.com/">首页</a> <span>/</span> <a href="https://airportcha.com/knowledge/">网络知识</a> <span>/</span> <span>IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普）</span></nav>			<h1>IPLC、IEPL 与公网中转彻底讲透：别再被机场宣传词忽悠（2026 真人科普）</h1>
 			<p>
 									<span>分类：网络知识</span> ·
-								<span>发布于 2026年11月26日</span> ·
-				<span>更新于 2026年11月26日</span>
+								<span>发布于 2026年11月28日</span> ·
+				<span>更新于 2026年11月28日</span>
 			</p>
 		</div>
 	</section>
@@ -106,7 +114,116 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="ac-container ac-container-narrow">
 			<article class="ac-article-wrap">
 				<div class="ac-prose">
-					<p class="wp-block-paragraph"><strong>IPLC / IEPL</strong> 属于运营商级点对点跨境内网专线，晚高峰延迟低但带宽成本高；<strong>公网中转</strong>性价比高，但在高峰期更容易受国际出口波动影响。</p>				</div>
+					<h2 class="wp-block-heading">别被缩写吓住：其实就跟“坐高铁”和“走国道”一个道理</h2>
+<p class="wp-block-paragraph">很多刚接触机场的朋友，一打开各大品牌的介绍页就头晕：满屏都是 <strong>IPLC、IEPL、BGP 多线中转、CN2 GIA、公网直连</strong>。商家最喜欢拿这些专业名词来抬高身价，动不动就说自己是“顶级专线”。今天咱们不背教科书定义，用最接地气的交通比喻，五分钟让你彻底看懂它们的真实区别，以后买机场再也不会被割韭菜。</p>
+
+<h2 class="wp-block-heading">一、三种主流机场线路的本质区别</h2>
+<p class="wp-block-paragraph"><strong>1. 普通公网直连（相当于“自己开车走免费国道”）</strong><br />你的电脑直接通过国内运营商（电信、联通、移动）的普通国际公网出口，连到海外的落地服务器。白天路上车少，开得还行；可一到晚上八点半晚高峰，全国几千万人一起挤在狭窄的国际出口收费站，堵车、丢包、高延迟全来了。而且因为直接走公网过境，遇到敏感时期非常容易被干扰断流。现在市面上几块钱的廉价小机场大多就是这种直连，便宜是真便宜，晚高峰卡也是真卡。</p>
+<p class="wp-block-paragraph"><strong>2. 国内 BGP 公网中转（相当于“先上高架快速路，再换大巴出境”）</strong><br />为了解决普通宽带国际出口烂的问题，机场主会在国内买一台大带宽 BGP 中转机房服务器（电信联通移动三网连过去都很快），你的流量先快速传到这台国内中转机，再由机房用质量更好的商业带宽转发到海外落地节点。这种方案体验比纯直连好一大截，成本也控制得住，是目前 <strong>15 元–20 元高性价比档位</strong>最常见、最务实的架构。平时白天飞快，晚高峰绝大多数时候也很稳，只是极端拥堵时段偶尔会有轻度波动。</p>
+<p class="wp-block-paragraph"><strong>3. IPLC / IEPL 跨境内网专线（相当于“走点对点封闭高铁隧道”）</strong><br />IPLC（国际私用出租线路）和 IEPL（国际以太网专线，可以理解为 IPLC 的升级以太网版），是直接向基础电信运营商租用的点对点物理内网专线（比如深圳直连香港、上海直连日本）。流量从国内入口进去后，全程走运营商封闭内网直达海外机房，<strong>完全不经过拥堵的公共国际出口</strong>！它的最大优势就是：哪怕是晚上九点半全国网络堵成一锅粥，专线的延迟依然稳如直线、丢包率几乎为零，打游戏、开跨国会议、连 SSH 写代码丝滑得像访问国内网站一样。唯一的缺点就是贵——运营商按兆卖钱，带宽成本极高。</p>
+
+<h2 class="wp-block-heading">二、普通人到底该怎么选？一定要买最贵的专线吗？</h2>
+<p class="wp-block-paragraph">绝对不是！买机场跟买车一样，天天在市区买菜代步，非要花钱买台越野车纯属浪费。你可以直接按自己的真实需求对号入座：</p>
+<ul class="wp-block-list"><li><strong>如果你是程序员、外贸人、远程办公或重度 AI 用户</strong>：晚高峰断一次线比多花几块钱难受多了，优先选择带高质量专线或优化架构的主力品牌，比如咱们白名单排第 1 的 <a href="/brands/guangnianti/">光年梯</a>（原价 ¥18/月含 120G，优惠码 <code>GNT80</code>）或者排第 2 的 <a href="/brands/jilianyun/">极连云</a>（原价 ¥18/月含 100G，优惠码 <code>JLY888</code>），再配一条独立线路做备用。</li><li><strong>如果你是学生党或轻度日常浏览用户</strong>：平时就查查资料、刷刷推特、看会儿视频，根本没必要为纯专线溢价买单，15 元档位的 <a href="/brands/kuaili/">快狸</a>（码 <code>kl888</code>）、<a href="/brands/speedworld/">速界</a>（码 <code>sujie888</code>）或者多给 10G 流量的 <a href="/brands/kexinyun/">可信云</a>（码 <code>kxy80</code>）就已经非常实用。</li><li><strong>如果你看重开发者跨区域技术路由</strong>：可以同步考察 <a href="/brands/edgenova/">边缘节点</a>（原价 ¥25/月含 100G，码 <code>xk808</code>）。</li></ul>
+
+<h2 class="wp-block-heading">三、如何一眼识破“假专线”营销套路？</h2>
+<p class="wp-block-paragraph">现在市面上有很多不良商家，拿着普通公网机房改个节点名字叫“【IPLC 专线】香港 01”来忽悠新手。教你两个最实用的辨别办法：第一，<strong>看价格常识</strong>——如果某家号称全站 IPLC 专线，却卖 5 块钱 500G 且不限倍率，不用想，100% 是假的，物理成本都不够；第二，<strong>看晚高峰真实抖动</strong>——买一个月付，晚上 9 点连续 Ping 或者打开网页、拉代码测一周。真正的优质线路，白天和晚高峰的延迟波动极小、不会突然掉包卡死。记住，名字叫什么不重要，在你自家宽带晚高峰跑得稳才是硬道理。</p>
+	<div class="ac-table-wrap">
+		<table class="ac-table">
+			<thead>
+				<tr>
+					<th>品牌名称</th>
+					<th>独立评分</th>
+					<th>起步价格</th>
+					<th>协议支持</th>
+					<th>流媒体与 AI 解锁</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+														<tr>
+						<td>
+							<a href="https://airportcha.com/brands/guangnianti/"><strong>光年梯</strong></a>
+							<span class="ac-badge ac-badge-primary">核心主推</span>						</td>
+						<td><strong>4.9</strong> / 5.0</td>
+						<td>¥18 / 月（原价 · 120GB）</td>
+						<td>Trojan / VLESS / Shadowsocks</td>
+						<td>支持主流流媒体与 AI 工具访问</td>
+						<td>
+							<a class="ac-btn ac-btn-sm ac-btn-outline" href="https://airportcha.com/brands/guangnianti/">档案</a>
+															<a class="ac-btn ac-btn-sm ac-btn-primary" href="https://airportcha.com/go/guangnianti/?slot=comparison_table" target="_blank" rel="nofollow sponsored noopener">官网</a>
+													</td>
+					</tr>
+														<tr>
+						<td>
+							<a href="https://airportcha.com/brands/jilianyun/"><strong>极连云</strong></a>
+							<span class="ac-badge ac-badge-accent">编辑重点推荐</span>						</td>
+						<td><strong>4.8</strong> / 5.0</td>
+						<td>¥18 / 月（原价 · 100GB）</td>
+						<td>Clash / Shadowrocket 订阅支持</td>
+						<td>详见品牌官网说明</td>
+						<td>
+							<a class="ac-btn ac-btn-sm ac-btn-outline" href="https://airportcha.com/brands/jilianyun/">档案</a>
+															<a class="ac-btn ac-btn-sm ac-btn-primary" href="https://airportcha.com/go/jilianyun/?slot=comparison_table" target="_blank" rel="nofollow sponsored noopener">官网</a>
+													</td>
+					</tr>
+														<tr>
+						<td>
+							<a href="https://airportcha.com/brands/kuaili/"><strong>快狸</strong></a>
+							<span class="ac-badge ac-badge-accent">编辑重点推荐</span>						</td>
+						<td><strong>4.7</strong> / 5.0</td>
+						<td>¥15 / 月（原价 · 50GB）</td>
+						<td>Clash / Shadowrocket 订阅支持</td>
+						<td>详见品牌官网说明</td>
+						<td>
+							<a class="ac-btn ac-btn-sm ac-btn-outline" href="https://airportcha.com/brands/kuaili/">档案</a>
+															<a class="ac-btn ac-btn-sm ac-btn-primary" href="https://airportcha.com/go/kuaili/?slot=comparison_table" target="_blank" rel="nofollow sponsored noopener">官网</a>
+													</td>
+					</tr>
+														<tr>
+						<td>
+							<a href="https://airportcha.com/brands/speedworld/"><strong>速界</strong></a>
+							<span class="ac-badge">合作品牌</span>						</td>
+						<td><strong>4.6</strong> / 5.0</td>
+						<td>¥15 / 月（原价 · 50GB）</td>
+						<td>Clash / Shadowrocket 订阅支持</td>
+						<td>详见品牌官网说明</td>
+						<td>
+							<a class="ac-btn ac-btn-sm ac-btn-outline" href="https://airportcha.com/brands/speedworld/">档案</a>
+															<a class="ac-btn ac-btn-sm ac-btn-primary" href="https://airportcha.com/go/speedworld/?slot=comparison_table" target="_blank" rel="nofollow sponsored noopener">官网</a>
+													</td>
+					</tr>
+														<tr>
+						<td>
+							<a href="https://airportcha.com/brands/edgenova/"><strong>边缘节点</strong></a>
+							<span class="ac-badge">合作品牌</span>						</td>
+						<td><strong>4.5</strong> / 5.0</td>
+						<td>¥25 / 月（原价 · 100GB）</td>
+						<td>Clash / Shadowrocket 订阅支持</td>
+						<td>详见品牌官网说明</td>
+						<td>
+							<a class="ac-btn ac-btn-sm ac-btn-outline" href="https://airportcha.com/brands/edgenova/">档案</a>
+															<a class="ac-btn ac-btn-sm ac-btn-primary" href="https://airportcha.com/go/edgenova/?slot=comparison_table" target="_blank" rel="nofollow sponsored noopener">官网</a>
+													</td>
+					</tr>
+														<tr>
+						<td>
+							<a href="https://airportcha.com/brands/kexinyun/"><strong>可信云</strong></a>
+							<span class="ac-badge">合作品牌</span>						</td>
+						<td><strong>4.4</strong> / 5.0</td>
+						<td>¥15 / 月（原价 · 60GB）</td>
+						<td>Clash / Shadowrocket 订阅支持</td>
+						<td>详见品牌官网说明</td>
+						<td>
+							<a class="ac-btn ac-btn-sm ac-btn-outline" href="https://airportcha.com/brands/kexinyun/">档案</a>
+															<a class="ac-btn ac-btn-sm ac-btn-primary" href="https://airportcha.com/go/kexinyun/?slot=comparison_table" target="_blank" rel="nofollow sponsored noopener">官网</a>
+													</td>
+					</tr>
+							</tbody>
+		</table>
+	</div>
+	
+				</div>
 
 							</article>
 		</div>

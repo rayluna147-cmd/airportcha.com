@@ -3,23 +3,23 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？ &#8211; AIRPORTCHA</title>
+	<title>Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南 &#8211; AIRPORTCHA</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//airportcha.com' />
-<link rel="alternate" type="application/rss+xml" title="AIRPORTCHA &raquo; Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？ Comments Feed" href="https://airportcha.com/trojan-vless-hysteria2-comparison/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AIRPORTCHA &raquo; Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南 Comments Feed" href="https://airportcha.com/trojan-vless-hysteria2-comparison/feed/" />
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://airportcha.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fairportcha.com%2Ftrojan-vless-hysteria2-comparison%2F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://airportcha.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fairportcha.com%2Ftrojan-vless-hysteria2-comparison%2F&#038;format=xml" />
-<meta name="description" content="对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。" />
+<meta name="description" content="机场节点列表里经常看到 Trojan、VLESS、Shadowsocks、Hysteria2，到底选哪个更快更稳？这篇大白话指南不讲晦涩加密算法，只告诉你日常不同网络环境下该怎么挑。" />
 <link rel="canonical" href="https://airportcha.com/trojan-vless-hysteria2-comparison/" />
 <meta property="og:site_name" content="AIRPORTCHA" />
-<meta property="og:title" content="Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？ &#8211; AIRPORTCHA" />
-<meta property="og:description" content="对比三大主流传输协议的加密特性、抗丢包能力与客户端兼容性，帮你选出最适合当前网络环境的协议。" />
+<meta property="og:title" content="Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南 &#8211; AIRPORTCHA" />
+<meta property="og:description" content="机场节点列表里经常看到 Trojan、VLESS、Shadowsocks、Hysteria2，到底选哪个更快更稳？这篇大白话指南不讲晦涩加密算法，只告诉你日常不同网络环境下该怎么挑。" />
 <meta property="og:url" content="https://airportcha.com/trojan-vless-hysteria2-comparison/" />
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="zh_CN" />
 <meta name="twitter:card" content="summary_large_image" />
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://airportcha.com/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://airportcha.com/blog/"},{"@type":"ListItem","position":3,"name":"Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？","item":"https://airportcha.com/trojan-vless-hysteria2-comparison/"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://airportcha.com/trojan-vless-hysteria2-comparison/#article","headline":"Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？","datePublished":"2026-11-26T23:56:24+08:00","dateModified":"2026-11-26T23:56:24+08:00","isPartOf":{"@id":"https://airportcha.com/#website"},"author":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"},"publisher":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://airportcha.com/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://airportcha.com/blog/"},{"@type":"ListItem","position":3,"name":"Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南","item":"https://airportcha.com/trojan-vless-hysteria2-comparison/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://airportcha.com/trojan-vless-hysteria2-comparison/#article","headline":"Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南","datePublished":"2026-11-28T20:47:18+08:00","dateModified":"2026-11-28T20:47:18+08:00","isPartOf":{"@id":"https://airportcha.com/#website"},"author":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"},"publisher":{"@type":"Organization","@id":"https://airportcha.com/#organization","name":"AIRPORTCHA"}}</script>
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
@@ -28,6 +28,14 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
 
 /*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://airportcha.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://airportcha.com/wp-includes/blocks/list/style.min.css */
 </style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
@@ -93,11 +101,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </header>
 	<section class="ac-page-header">
 		<div class="ac-container ac-container-narrow">
-			<nav class="ac-breadcrumbs" aria-label="面包屑导航"><a href="https://airportcha.com/">首页</a> <span>/</span> <a href="https://airportcha.com/knowledge/">网络知识</a> <span>/</span> <span>Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？</span></nav>			<h1>Trojan、VLESS 与 Hysteria2 协议对比：日常使用该怎么选？</h1>
+			<nav class="ac-breadcrumbs" aria-label="面包屑导航"><a href="https://airportcha.com/">首页</a> <span>/</span> <a href="https://airportcha.com/knowledge/">网络知识</a> <span>/</span> <span>Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南</span></nav>			<h1>Trojan、VLESS 与 Hysteria2 协议怎么选？2026 真人大白话对比指南</h1>
 			<p>
 									<span>分类：网络知识</span> ·
-								<span>发布于 2026年11月26日</span> ·
-				<span>更新于 2026年11月26日</span>
+								<span>发布于 2026年11月28日</span> ·
+				<span>更新于 2026年11月28日</span>
 			</p>
 		</div>
 	</section>
@@ -106,7 +114,152 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="ac-container ac-container-narrow">
 			<article class="ac-article-wrap">
 				<div class="ac-prose">
-					<p class="wp-block-paragraph"><strong>Trojan / VLESS</strong> 基于 TCP + TLS，在专线环境下稳定；<strong>Hysteria2</strong> 基于 UDP/QUIC，抗丢包能力强，适合弱网或公网环境。</p>				</div>
+					<h2 class="wp-block-heading">别纠结底层密码学：用户只需要知道什么时候选哪个协议</h2>
+<p class="wp-block-paragraph">很多朋友导入机场订阅后，打开 Clash Verge Rev 或小火箭，看到节点名字后面跟着各种英文标签：<code>SS</code>（Shadowsocks）、<code>Trojan</code>、<code>VLESS</code>、<code>Hysteria2</code>，一下子犯了选择困难症：“我到底该连哪个？是不是名字越长越高级？”</p>
+<p class="wp-block-paragraph">其实作为普通用户，你完全不需要去背什么握手流程和加密套件，只要记住一句话：<strong>协议本身没有绝对的谁秒杀谁，关键看你当前的网络环境是“稳健宽带”还是“丢包弱网”</strong>。下面用大白话把目前 2026 年最主流的几个协议给你讲透。</p>
+
+<h2 class="wp-block-heading">一、Trojan 与 VLESS（TCP + TLS 稳健双雄）</h2>
+<p class="wp-block-paragraph"><strong>Trojan</strong> 和 <strong>VLESS（特别是 VLESS-Reality）</strong>是目前中高端机场用得最广、口碑最稳的两大主力协议。它们底层都跑在 TCP 协议之上，最大的特点就是把你的代理流量伪装成再普通不过的 HTTPS 正常网页浏览流量（就像你平时打开淘宝、百度一样自然）。</p>
+<p class="wp-block-paragraph"><strong>它们适合什么场景？</strong>只要你连的是质量不错的家里宽带、公司网络，或者机场本身提供的是稳健中转/专线入口，Trojan 和 VLESS 的表现极其扎实：<strong>长连接不断流、SSH 稳、开跨国视频会议不卡顿、几乎所有客户端（Clash / 小火箭 / 软路由）都完美兼容</strong>。比如我们站里排第一的 <a href="/brands/guangnianti/">光年梯</a>，主力节点就全面支持 Trojan 与 VLESS，日常办公闭眼连就行。</p>
+
+<h2 class="wp-block-heading">二、Hysteria2 与 TUIC（基于 UDP/QUIC 的弱网提速猛兽）</h2>
+<p class="wp-block-paragraph">传统的 TCP 协议有个天生脾气：一旦网络发生哪怕 3% 的丢包，它就会很“老实”地主动降速重传，结果在信号不好的地方（比如地铁 5G、学校晚高峰拥堵的校园网、酒店老旧 Wi-Fi）速度直接掉到几百 KB。</p>
+<p class="wp-block-paragraph">而 <strong>Hysteria2</strong>（以及同类的 TUIC）基于新一代 UDP / QUIC 协议，采用了非常激进的拥塞控制算法——简单说就是<strong>“越是丢包弱网，它越能把带宽硬生生抢回来”</strong>！在移动网络、校园网或者跨洋直连丢包严重的环境下，切到 Hysteria2 节点看 YouTube 4K 往往能瞬间起飞。</p>
+<p class="wp-block-paragraph">但它也有两个小缺点：第一，国内部分宽带运营商或公司防火墙会对高频 UDP 流量进行限速（俗称 UDP QOS），遇到这种情况 Hysteria2 反而可能连不上或变慢；第二，老旧版本的代理客户端不支持它，必须用最新版的 Clash Verge Rev（Mihomo 内核）或新版小火箭。</p>
+
+<h2 class="wp-block-heading">三、Shadowsocks（老牌轻量常青树）</h2>
+<p class="wp-block-paragraph">Shadowsocks（SS）是最早流行起来的轻量协议，现在依然在大量 IPLC/IEPL 专线机场里广泛服役。为什么专线机场反而爱用 SS？因为专线本身走的是运营商封闭内网，不需要复杂的伪装开销，用轻量级的 Shadowsocks（配合 AEAD 加密）反而<strong>CPU 占用最低、手机最省电、延迟最干脆</strong>。</p>
+
+<h2 class="wp-block-heading">四、一张口诀表：日常选协议照着做就行</h2>
+<ul class="wp-block-list"><li><strong>在家/公司稳健宽带办公、写代码、用 AI</strong>：优先选 <strong>Trojan / VLESS / 专线 SS</strong>，连接最稳、省电且极少被运营商限速。</li><li><strong>在地铁 5G、酒店 Wi-Fi、校园网等丢包弱网环境</strong>：如果机场提供 <strong>Hysteria2</strong> 节点，优先切过去试试，提速效果立竿见影；万一发现被运营商 QOS 限速，再切回 Trojan / VLESS。</li><li><strong>不想动脑子研究协议？</strong>其实选对靠谱机场比纠结协议重要十倍！直接去 <a href="/recommend/">AIRPORTCHA 机场推荐总榜</a> 挑一家像光年梯（原价 18 元 120G，码 <code>GNT80</code>）或极连云（原价 18 元 100G，码 <code>JLY888</code>）这样全协议兼容的白名单品牌，客户端自动测速选绿灯节点用就完事了。</li></ul>
+<div class="ac-brand-grid">	<article class="ac-card ac-brand-card ac-card-standard is-featured"
+		data-brand-slug="guangnianti"
+		data-tier="PRIMARY"
+		data-rating="4.9"
+		data-order="1">
+		<div class="ac-card-head">
+			<div class="ac-brand-id">
+				<span class="ac-brand-logo ac-brand-logo-fallback" aria-hidden="true">光</span>				<div>
+					<span class="ac-badge ac-badge-primary">核心主推</span>					<h3 class="ac-card-title">
+						<a href="https://airportcha.com/brands/guangnianti/">光年梯</a>
+					</h3>
+				</div>
+			</div>
+			<div class="ac-rating-pill" title="独立评测综合评分">
+				<strong>4.9</strong><span>/5</span>
+			</div>
+		</div>
+
+					<p class="ac-card-desc">核心主推多平台稳定线路，适配跨境办公与 AI 工具</p>
+		
+					<ul class="ac-spec-list">
+									<li><span>起步价格</span><strong>¥18 / 月（原价 · 120GB）</strong></li>
+													<li><span>协议支持</span><strong>Trojan / VLESS / Shadowsocks</strong></li>
+													<li><span>节点规模</span><strong>多地区全球核心节点</strong></li>
+							</ul>
+		
+					<div class="ac-coupon-bar">
+				<span>优惠码：<code>GNT80</code></span>
+				<button type="button" class="ac-copy-btn" data-copy="GNT80">复制</button>
+			</div>
+		
+					<div class="ac-tag-row">
+									<span class="ac-chip">4K 流媒体解锁</span>
+									<span class="ac-chip">ChatGPT/AI 解锁</span>
+									<span class="ac-chip">IPLC 专线</span>
+							</div>
+		
+		<div class="ac-card-actions">
+			<a class="ac-btn ac-btn-outline" href="https://airportcha.com/brands/guangnianti/">查看档案</a>
+							<a class="ac-btn ac-btn-primary" href="https://airportcha.com/go/guangnianti/?slot=article_inline" target="_blank" rel="nofollow sponsored noopener">访问官网</a>
+					</div>
+	</article>
+		<article class="ac-card ac-brand-card ac-card-standard is-featured"
+		data-brand-slug="jilianyun"
+		data-tier="FEATURED"
+		data-rating="4.8"
+		data-order="2">
+		<div class="ac-card-head">
+			<div class="ac-brand-id">
+				<span class="ac-brand-logo ac-brand-logo-fallback" aria-hidden="true">极</span>				<div>
+					<span class="ac-badge ac-badge-accent">编辑重点推荐</span>					<h3 class="ac-card-title">
+						<a href="https://airportcha.com/brands/jilianyun/">极连云</a>
+					</h3>
+				</div>
+			</div>
+			<div class="ac-rating-pill" title="独立评测综合评分">
+				<strong>4.8</strong><span>/5</span>
+			</div>
+		</div>
+
+					<p class="ac-card-desc">原价 ¥18/月含 100GB 流量，均衡稳健的第二主力选择</p>
+		
+					<ul class="ac-spec-list">
+									<li><span>起步价格</span><strong>¥18 / 月（原价 · 100GB）</strong></li>
+													<li><span>协议支持</span><strong>Clash / Shadowrocket 订阅支持</strong></li>
+													<li><span>节点规模</span><strong>多地区全球节点</strong></li>
+							</ul>
+		
+					<div class="ac-coupon-bar">
+				<span>优惠码：<code>JLY888</code></span>
+				<button type="button" class="ac-copy-btn" data-copy="JLY888">复制</button>
+			</div>
+		
+					<div class="ac-tag-row">
+									<span class="ac-chip">4K 流媒体解锁</span>
+									<span class="ac-chip">ChatGPT/AI 解锁</span>
+									<span class="ac-chip">IPLC 专线</span>
+							</div>
+		
+		<div class="ac-card-actions">
+			<a class="ac-btn ac-btn-outline" href="https://airportcha.com/brands/jilianyun/">查看档案</a>
+							<a class="ac-btn ac-btn-primary" href="https://airportcha.com/go/jilianyun/?slot=article_inline" target="_blank" rel="nofollow sponsored noopener">访问官网</a>
+					</div>
+	</article>
+		<article class="ac-card ac-brand-card ac-card-standard is-featured"
+		data-brand-slug="kuaili"
+		data-tier="FEATURED"
+		data-rating="4.7"
+		data-order="3">
+		<div class="ac-card-head">
+			<div class="ac-brand-id">
+				<span class="ac-brand-logo ac-brand-logo-fallback" aria-hidden="true">快</span>				<div>
+					<span class="ac-badge ac-badge-accent">编辑重点推荐</span>					<h3 class="ac-card-title">
+						<a href="https://airportcha.com/brands/kuaili/">快狸</a>
+					</h3>
+				</div>
+			</div>
+			<div class="ac-rating-pill" title="独立评测综合评分">
+				<strong>4.7</strong><span>/5</span>
+			</div>
+		</div>
+
+					<p class="ac-card-desc">原价 ¥15/月含 50GB 流量，轻量省心的新手入门之选</p>
+		
+					<ul class="ac-spec-list">
+									<li><span>起步价格</span><strong>¥15 / 月（原价 · 50GB）</strong></li>
+													<li><span>协议支持</span><strong>Clash / Shadowrocket 订阅支持</strong></li>
+													<li><span>节点规模</span><strong>多地区全球节点</strong></li>
+							</ul>
+		
+					<div class="ac-coupon-bar">
+				<span>优惠码：<code>kl888</code></span>
+				<button type="button" class="ac-copy-btn" data-copy="kl888">复制</button>
+			</div>
+		
+					<div class="ac-tag-row">
+									<span class="ac-chip">4K 流媒体解锁</span>
+									<span class="ac-chip">低延迟稳定</span>
+									<span class="ac-chip">高性价比</span>
+							</div>
+		
+		<div class="ac-card-actions">
+			<a class="ac-btn ac-btn-outline" href="https://airportcha.com/brands/kuaili/">查看档案</a>
+							<a class="ac-btn ac-btn-primary" href="https://airportcha.com/go/kuaili/?slot=article_inline" target="_blank" rel="nofollow sponsored noopener">访问官网</a>
+					</div>
+	</article>
+	</div>
+				</div>
 
 							</article>
 		</div>

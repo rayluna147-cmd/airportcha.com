@@ -22,6 +22,8 @@ require_once AIRPORTCHA_CORE_DIR . 'includes/redirects.php';
 require_once AIRPORTCHA_CORE_DIR . 'includes/shortcodes.php';
 require_once AIRPORTCHA_CORE_DIR . 'includes/seo.php';
 require_once AIRPORTCHA_CORE_DIR . 'includes/brand-reviews-data.php';
+require_once AIRPORTCHA_CORE_DIR . 'includes/articles-part1.php';
+require_once AIRPORTCHA_CORE_DIR . 'includes/articles-part2.php';
 require_once AIRPORTCHA_CORE_DIR . 'includes/seeder.php';
 
 /**
